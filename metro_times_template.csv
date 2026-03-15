@@ -1,0 +1,275 @@
+Station_A,Station_B,Type,Time_in_Minutes
+Hindon River,Shaheed Sthal(First Station),RAIL,1
+Arthala,Hindon River,RAIL,3
+Arthala,Mohan Nagar,RAIL,9
+Mohan Nagar,Shyam park,RAIL,5
+Major Mohit Sharma,Shyam park,RAIL,2
+Major Mohit Sharma,Raj Bagh,RAIL,1
+Raj Bagh,Shaheed Nagar,RAIL,2
+Dilshad Garden,Shaheed Nagar,RAIL,1
+Dilshad Garden,Jhil Mil,RAIL,1
+Jhil Mil,Mansarovar Park,RAIL,1
+Mansarovar Park,Shahdara,RAIL,1
+Shahdara,Welcome [Conn: Pink],RAIL,1
+Seelampur,Welcome [Conn: Pink],RAIL,FILL_THIS
+Seelampur,Shastri Park,RAIL,FILL_THIS
+"Kashmere Gate [Conn: Violet,Yellow]",Shastri Park,RAIL,FILL_THIS
+"Kashmere Gate [Conn: Violet,Yellow]",Tis Hazari,RAIL,FILL_THIS
+Pul Bangash,Tis Hazari,RAIL,FILL_THIS
+Pratap Nagar,Pul Bangash,RAIL,FILL_THIS
+Pratap Nagar,Shastri Nagar,RAIL,FILL_THIS
+Inderlok [Conn: Green],Shastri Nagar,RAIL,FILL_THIS
+Inderlok [Conn: Green],Kanhaiya Nagar,RAIL,FILL_THIS
+Kanhaiya Nagar,Keshav Puram,RAIL,FILL_THIS
+Keshav Puram,Netaji Subash Place [Conn: Pink],RAIL,FILL_THIS
+Kohat Enclave,Netaji Subash Place [Conn: Pink],RAIL,FILL_THIS
+Kohat Enclave,Pitam Pura,RAIL,FILL_THIS
+Pitam Pura,Rohini East,RAIL,FILL_THIS
+Rohini East,Rohini West,RAIL,FILL_THIS
+Rithala(last station),Rohini West,RAIL,FILL_THIS
+Rohini Sector 18-19,Samaypur Badli(First Station),RAIL,FILL_THIS
+Haiderpur Badli Mor,Rohini Sector 18-19,RAIL,FILL_THIS
+Haiderpur Badli Mor,Jahangirpuri,RAIL,FILL_THIS
+Adarsh Nagar,Jahangirpuri,RAIL,FILL_THIS
+Adarsh Nagar,Azadpur [Conn: Pink],RAIL,FILL_THIS
+Azadpur [Conn: Pink],Model Town,RAIL,FILL_THIS
+Guru Tegh Bahadur Nagar,Model Town,RAIL,FILL_THIS
+Guru Tegh Bahadur Nagar,Vishwavidyalaya,RAIL,FILL_THIS
+Vidhan Sabha,Vishwavidyalaya,RAIL,FILL_THIS
+Civil Lines,Vidhan Sabha,RAIL,FILL_THIS
+Civil Lines,Kashmere Gate [Conn: Violet],RAIL,FILL_THIS
+Chandni Chowk,Kashmere Gate [Conn: Violet],RAIL,FILL_THIS
+Chandni Chowk,Chawri Bazar,RAIL,FILL_THIS
+Chawri Bazar,New Delhi [Conn: Orange],RAIL,FILL_THIS
+New Delhi [Conn: Orange],Rajiv Chowk [Conn: Blue],RAIL,FILL_THIS
+Patel Chowk,Rajiv Chowk [Conn: Blue],RAIL,FILL_THIS
+Central Secretariat [Conn: Violet],Patel Chowk,RAIL,FILL_THIS
+Central Secretariat [Conn: Violet],Udyog Bhawan,RAIL,FILL_THIS
+Lok Kalyan Marg,Udyog Bhawan,RAIL,FILL_THIS
+Jor Bagh,Lok Kalyan Marg,RAIL,FILL_THIS
+Dilli Haat INA [Conn: Pink],Jor Bagh,RAIL,FILL_THIS
+AIIMS,Dilli Haat INA [Conn: Pink],RAIL,FILL_THIS
+AIIMS,Green Park,RAIL,FILL_THIS
+Green Park,Hauz Khas [Conn: Magenta],RAIL,FILL_THIS
+Hauz Khas [Conn: Magenta],Malviya Nagar,RAIL,FILL_THIS
+Malviya Nagar,Saket,RAIL,FILL_THIS
+Qutab Minar,Saket,RAIL,FILL_THIS
+Chhattarpur,Qutab Minar,RAIL,FILL_THIS
+Chhattarpur,Sultanpur,RAIL,FILL_THIS
+Ghitorni,Sultanpur,RAIL,FILL_THIS
+Arjan Garh,Ghitorni,RAIL,FILL_THIS
+Arjan Garh,Guru Dronacharya,RAIL,FILL_THIS
+Guru Dronacharya,Sikandarpur [Conn: Rapid],RAIL,FILL_THIS
+MG Road,Sikandarpur [Conn: Rapid],RAIL,FILL_THIS
+IFFCO Chowk,MG Road,RAIL,FILL_THIS
+Huda City Centre,IFFCO Chowk,RAIL,FILL_THIS
+Dwarka Sector 21(First station) [Conn: Orange],Dwarka Sector 8,RAIL,FILL_THIS
+Dwarka Sector 8,Dwarka Sector 9,RAIL,FILL_THIS
+Dwarka Sector 10,Dwarka Sector 9,RAIL,FILL_THIS
+Dwarka Sector 10,Dwarka Sector 11,RAIL,FILL_THIS
+Dwarka Sector 11,Dwarka Sector 12,RAIL,FILL_THIS
+Dwarka Sector 12,Dwarka Sector 13,RAIL,FILL_THIS
+Dwarka Sector 13,Dwarka Sector 14,RAIL,FILL_THIS
+Dwarka Sector 14,Dwarka [Conn: Gray],RAIL,FILL_THIS
+Dwarka Mor,Dwarka [Conn: Gray],RAIL,FILL_THIS
+Dwarka Mor,Nawada,RAIL,FILL_THIS
+Nawada,Uttam Nagar West,RAIL,FILL_THIS
+Uttam Nagar East,Uttam Nagar West,RAIL,FILL_THIS
+Janak Puri West [Conn: Magenta],Uttam Nagar East,RAIL,FILL_THIS
+Janak Puri East,Janak Puri West [Conn: Magenta],RAIL,FILL_THIS
+Janak Puri East,Tilak Nagar,RAIL,FILL_THIS
+Subhash Nagar,Tilak Nagar,RAIL,FILL_THIS
+Subhash Nagar,Tagore Garden,RAIL,FILL_THIS
+Rajouri Garden [Conn: Pink],Tagore Garden,RAIL,FILL_THIS
+Rajouri Garden [Conn: Pink],Ramesh Nagar,RAIL,FILL_THIS
+Moti Nagar,Ramesh Nagar,RAIL,FILL_THIS
+Kirti Nagar [Conn: Green],Moti Nagar,RAIL,FILL_THIS
+Kirti Nagar [Conn: Green],Shadipur,RAIL,FILL_THIS
+Patel Nagar,Shadipur,RAIL,FILL_THIS
+Patel Nagar,Rajendra Place,RAIL,FILL_THIS
+Karol Bagh,Rajendra Place,RAIL,FILL_THIS
+Jhandewalan,Karol Bagh,RAIL,FILL_THIS
+Jhandewalan,R K Ashram Marg,RAIL,FILL_THIS
+R K Ashram Marg,Rajiv Chowk [Conn: Yellow],RAIL,FILL_THIS
+Barakhamba,Rajiv Chowk [Conn: Yellow],RAIL,FILL_THIS
+Barakhamba,Mandi House [Conn: Violet],RAIL,FILL_THIS
+Mandi House [Conn: Violet],Supreme Court (Pragati Maidan),RAIL,FILL_THIS
+Indraprastha,Supreme Court (Pragati Maidan),RAIL,FILL_THIS
+Indraprastha,Yamuna Bank,RAIL,FILL_THIS
+Akshardham,Yamuna Bank,RAIL,FILL_THIS
+Yamuna Bank,Yamuna Bank,TRANSFER,FILL_THIS
+Akshardham,Mayur Vihar Phase-1 [Conn: Pink],RAIL,FILL_THIS
+Mayur Vihar Extention,Mayur Vihar Phase-1 [Conn: Pink],RAIL,FILL_THIS
+Mayur Vihar Extention,New Ashok Nagar,RAIL,FILL_THIS
+New Ashok Nagar,Noida Sector 15,RAIL,FILL_THIS
+Noida Sector 15,Noida Sector 16,RAIL,FILL_THIS
+Noida Sector 16,Noida Sector 18,RAIL,FILL_THIS
+Botanical Garden [Conn: Magenta],Noida Sector 18,RAIL,FILL_THIS
+Botanical Garden [Conn: Magenta],Golf Course,RAIL,FILL_THIS
+Golf Course,Noida City Center,RAIL,FILL_THIS
+Noida City Center,Noida Sector 34,RAIL,FILL_THIS
+Noida Sector 34,Noida Sector 52 [Conn: Aqua],RAIL,FILL_THIS
+Noida Sector 52 [Conn: Aqua],Noida Sector 61,RAIL,FILL_THIS
+Noida Sector 59,Noida Sector 61,RAIL,FILL_THIS
+Noida Sector 59,Noida Sector 62,RAIL,FILL_THIS
+Laxmi Nagar,Yamuna Bank,RAIL,FILL_THIS
+Laxmi Nagar,Nirman Vihar,RAIL,FILL_THIS
+Nirman Vihar,Preet Vihar,RAIL,FILL_THIS
+Karkar Duma [Conn: Pink],Preet Vihar,RAIL,FILL_THIS
+Anand Vihar [Conn: Pink],Karkar Duma [Conn: Pink],RAIL,FILL_THIS
+Anand Vihar [Conn: Pink],Kaushambi,RAIL,FILL_THIS
+Kaushambi,Vaishali,RAIL,FILL_THIS
+Ashok Park Main,Satguru Ram Singh Marg,RAIL,FILL_THIS
+Ashok Park Main,Ashok Park Main,TRANSFER,FILL_THIS
+Kirti Nagar [Conn: Blue],Satguru Ram Singh Marg,RAIL,FILL_THIS
+Ashok Park Main,Inderlok Conn:Red,RAIL,FILL_THIS
+Ashok Park Main,Punjabi Bagh,RAIL,FILL_THIS
+Punjabi Bagh,Shivaji Park,RAIL,FILL_THIS
+Madipur,Shivaji Park,RAIL,FILL_THIS
+Madipur,Paschim Vihar (East),RAIL,FILL_THIS
+Paschim Vihar (East),Paschim Vihar (West),RAIL,FILL_THIS
+Paschim Vihar (West),Peera Garhi,RAIL,FILL_THIS
+Peera Garhi,Udyog Nagar,RAIL,FILL_THIS
+Maharaja Surajmal Stadium,Udyog Nagar,RAIL,FILL_THIS
+Maharaja Surajmal Stadium,Nangloi,RAIL,FILL_THIS
+Nangloi,Nangloi Railway Station,RAIL,FILL_THIS
+Nangloi Railway Station,Rajdhani Park,RAIL,FILL_THIS
+Mundka,Rajdhani Park,RAIL,FILL_THIS
+Mundka,Mundka Industrial Area (MIA),RAIL,FILL_THIS
+Ghevra Metro station,Mundka Industrial Area (MIA),RAIL,FILL_THIS
+Ghevra Metro station,Tikri Kalan,RAIL,FILL_THIS
+Tikri Border,Tikri Kalan,RAIL,FILL_THIS
+Pandit Shree Ram Sharma,Tikri Border,RAIL,FILL_THIS
+Bahdurgarh City,Pandit Shree Ram Sharma,RAIL,FILL_THIS
+Bahdurgarh City,Brigadier Hoshiar Singh,RAIL,FILL_THIS
+Sector 54 Chowk,Sector 55-66,RAIL,FILL_THIS
+Sector 53-54,Sector 54 Chowk,RAIL,FILL_THIS
+Sector 42-43,Sector 53-54,RAIL,FILL_THIS
+DLF Phase 1,Sector 42-43,RAIL,FILL_THIS
+DLF Phase 1,Sikandarpur [Conn: Yellow],RAIL,FILL_THIS
+DLF Phase 2,Sikandarpur [Conn: Yellow],RAIL,FILL_THIS
+Belvedere Towers,DLF Phase 2,RAIL,FILL_THIS
+Belvedere Towers,Cyber City,RAIL,FILL_THIS
+Cyber City,Moulsari Avenue,RAIL,FILL_THIS
+DLF Phase 3,Moulsari Avenue,RAIL,FILL_THIS
+Kashmere Gate [Conn: Yellow],Lal Quila,RAIL,FILL_THIS
+Jama Masjid,Lal Quila,RAIL,FILL_THIS
+Delhi Gate,Jama Masjid,RAIL,FILL_THIS
+Delhi Gate,ITO,RAIL,FILL_THIS
+ITO,Mandi House [Conn: Blue],RAIL,FILL_THIS
+Janpath,Mandi House [Conn: Blue],RAIL,FILL_THIS
+Central Secretariat [Conn: Yellow],Janpath,RAIL,FILL_THIS
+Central Secretariat [Conn: Yellow],Khan Market,RAIL,FILL_THIS
+Jawaharlal Nehru Stadium,Khan Market,RAIL,FILL_THIS
+Jangpura,Jawaharlal Nehru Stadium,RAIL,FILL_THIS
+Jangpura,Lajpat Nagar [Conn: Pink],RAIL,FILL_THIS
+Lajpat Nagar [Conn: Pink],Moolchand,RAIL,FILL_THIS
+Kailash Colony,Moolchand,RAIL,FILL_THIS
+Kailash Colony,Nehru Place,RAIL,FILL_THIS
+Kalkaji Mandir [Conn: Magenta],Nehru Place,RAIL,FILL_THIS
+Govind Puri,Kalkaji Mandir [Conn: Magenta],RAIL,FILL_THIS
+Govind Puri,Okhla,RAIL,FILL_THIS
+Jasola,Okhla,RAIL,FILL_THIS
+Jasola,Sarita Vihar,RAIL,FILL_THIS
+Mohan Estate,Sarita Vihar,RAIL,FILL_THIS
+Mohan Estate,Tughlakabad,RAIL,FILL_THIS
+Badarpur Border,Tughlakabad,RAIL,FILL_THIS
+Badarpur Border,Sarai,RAIL,FILL_THIS
+N.H.P.C. Chowk,Sarai,RAIL,FILL_THIS
+Mewala Maharajpur,N.H.P.C. Chowk,RAIL,FILL_THIS
+Mewala Maharajpur,Sector 28 Faridabad,RAIL,FILL_THIS
+Badkal Mor,Sector 28 Faridabad,RAIL,FILL_THIS
+Badkal Mor,Old Faridabad,RAIL,FILL_THIS
+Neelam Chowk Ajronda,Old Faridabad,RAIL,FILL_THIS
+Bata Chowk,Neelam Chowk Ajronda,RAIL,FILL_THIS
+Bata Chowk,Escorts Mujesar,RAIL,FILL_THIS
+Escorts Mujesar,Sant Surdas - Sihi,RAIL,FILL_THIS
+Raja Nahar Singh,Sant Surdas - Sihi,RAIL,FILL_THIS
+Dabri Mor - Janakpuri South,Janak Puri West [Conn: Blue],RAIL,FILL_THIS
+Dabri Mor - Janakpuri South,Dashrath Puri,RAIL,FILL_THIS
+Dashrath Puri,Palam,RAIL,FILL_THIS
+Palam,Sadar Bazaar Cantonment,RAIL,FILL_THIS
+Sadar Bazaar Cantonment,Terminal 1 IGI Airport,RAIL,FILL_THIS
+Shankar Vihar,Terminal 1 IGI Airport,RAIL,FILL_THIS
+Shankar Vihar,Vasant Vihar,RAIL,FILL_THIS
+Munirka,Vasant Vihar,RAIL,FILL_THIS
+Munirka,RK Puram,RAIL,FILL_THIS
+IIT Delhi,RK Puram,RAIL,FILL_THIS
+Hauz Khas [Conn: Yellow],IIT Delhi,RAIL,FILL_THIS
+Hauz Khas [Conn: Yellow],Panchsheel Park,RAIL,FILL_THIS
+Chirag Delhi,Panchsheel Park,RAIL,FILL_THIS
+Chirag Delhi,Greater Kailash,RAIL,FILL_THIS
+Greater Kailash,Nehru Enclave,RAIL,FILL_THIS
+Kalkaji Mandir [Conn: Violet],Nehru Enclave,RAIL,FILL_THIS
+Kalkaji Mandir [Conn: Violet],Okhla NSIC,RAIL,FILL_THIS
+Okhla NSIC,Sukhdev Vihar,RAIL,FILL_THIS
+JAMIA MILLIA ISLAMIA,Sukhdev Vihar,RAIL,FILL_THIS
+JAMIA MILLIA ISLAMIA,Okhla Vihar,RAIL,FILL_THIS
+Jasola Vihar Shaheen Bagh,Okhla Vihar,RAIL,FILL_THIS
+Jasola Vihar Shaheen Bagh,Kalindi Kunj,RAIL,FILL_THIS
+Kalindi Kunj,Okhla Bird Sanctuary,RAIL,FILL_THIS
+Botanical Garden [Conn: Blue],Okhla Bird Sanctuary,RAIL,FILL_THIS
+Azadpur [Conn: Yellow],Majlis Park,RAIL,FILL_THIS
+Azadpur [Conn: Yellow],Shalimar Bagh,RAIL,FILL_THIS
+Netaji Subash Place [Conn: Red],Shalimar Bagh,RAIL,FILL_THIS
+Netaji Subash Place [Conn: Red],Shakurpur,RAIL,FILL_THIS
+Punjabi Bagh West,Shakurpur,RAIL,FILL_THIS
+ESI BASAI DARAPUR,Punjabi Bagh West,RAIL,FILL_THIS
+ESI BASAI DARAPUR,Rajouri Garden [Conn: Blue],RAIL,FILL_THIS
+Maya Puri,Rajouri Garden [Conn: Blue],RAIL,FILL_THIS
+Maya Puri,Naraina Vihar,RAIL,FILL_THIS
+Delhi Cantt,Naraina Vihar,RAIL,FILL_THIS
+Delhi Cantt,Durgabai Deshmukh South Campus [Conn: Orange],RAIL,FILL_THIS
+Durgabai Deshmukh South Campus [Conn: Orange],Sir Vishweshwaraiah Moti Bagh,RAIL,FILL_THIS
+Bhikaji Cama Place,Sir Vishweshwaraiah Moti Bagh,RAIL,FILL_THIS
+Bhikaji Cama Place,Sarojini Nagar,RAIL,FILL_THIS
+Dilli Haat INA [Conn: Yellow],Sarojini Nagar,RAIL,FILL_THIS
+Dilli Haat INA [Conn: Yellow],South Extension,RAIL,FILL_THIS
+Lajpat Nagar [Conn: Violet],South Extension,RAIL,FILL_THIS
+Lajpat Nagar [Conn: Violet],Vinobapuri,RAIL,FILL_THIS
+Ashram,Vinobapuri,RAIL,FILL_THIS
+Ashram,Sarai Kale Khan Hazrat Nizamuddin,RAIL,FILL_THIS
+Mayur Vihar Phase-1 [Conn: Blue],Sarai Kale Khan Hazrat Nizamuddin,RAIL,FILL_THIS
+Mayur Vihar Phase-1 [Conn: Blue],Mayur Vihar Pocket I,RAIL,FILL_THIS
+Mayur Vihar Pocket I,Trilokpuri Sanjay Lake,RAIL,FILL_THIS
+Trilokpuri Sanjay Lake,Vinod Nagar East,RAIL,FILL_THIS
+Mandawali - West Vinod Nagar,Vinod Nagar East,RAIL,FILL_THIS
+IP Extension,Mandawali - West Vinod Nagar,RAIL,FILL_THIS
+Anand Vihar [Conn: Blue],IP Extension,RAIL,FILL_THIS
+Anand Vihar [Conn: Blue],Karkar Duma [Conn: Blue],RAIL,FILL_THIS
+Karkar Duma [Conn: Blue],Karkarduma Court,RAIL,FILL_THIS
+Karkarduma Court,Krishna Nagar,RAIL,FILL_THIS
+East Azad Nagar,Krishna Nagar,RAIL,FILL_THIS
+East Azad Nagar,Welcome [Conn: Red],RAIL,FILL_THIS
+Jaffrabad,Welcome [Conn: Red],RAIL,FILL_THIS
+Jaffrabad,Maujpur,RAIL,FILL_THIS
+Gokulpuri,Maujpur,RAIL,FILL_THIS
+Gokulpuri,Johri Enclave,RAIL,FILL_THIS
+Johri Enclave,Shiv Vihar,RAIL,FILL_THIS
+Noida Sector 50,Noida Sector 51 [Conn: Blue],RAIL,FILL_THIS
+Noida Sector 50,Noida Sector 76,RAIL,FILL_THIS
+Noida Sector 101,Noida Sector 76,RAIL,FILL_THIS
+Noida Sector 101,Noida Sector 81,RAIL,FILL_THIS
+NSEZ Noida,Noida Sector 81,RAIL,FILL_THIS
+NSEZ Noida,Noida Sector 83,RAIL,FILL_THIS
+Noida Sector 137,Noida Sector 83,RAIL,FILL_THIS
+Noida Sector 137,Noida Sector 142,RAIL,FILL_THIS
+Noida Sector 142,Noida Sector 143,RAIL,FILL_THIS
+Noida Sector 143,Noida Sector 144,RAIL,FILL_THIS
+Noida Sector 144,Noida Sector 145,RAIL,FILL_THIS
+Noida Sector 145,Noida Sector 146,RAIL,FILL_THIS
+Noida Sector 146,Noida Sector 147,RAIL,FILL_THIS
+Noida Sector 147,Noida Sector 148,RAIL,FILL_THIS
+Knowledge Park II,Noida Sector 148,RAIL,FILL_THIS
+Knowledge Park II,Pari Chowk Greater Noida,RAIL,FILL_THIS
+Alpha 1 Greater Noida,Pari Chowk Greater Noida,RAIL,FILL_THIS
+Alpha 1 Greater Noida,Delta 1 Greater Noida,RAIL,FILL_THIS
+Delta 1 Greater Noida,GNIDA Office,RAIL,FILL_THIS
+Depot Greater Noida,GNIDA Office,RAIL,FILL_THIS
+Dwarka [Conn: Blue],Nangli,RAIL,FILL_THIS
+Najafgarh,Nangli,RAIL,FILL_THIS
+New Delhi-Airport Express [Conn: Yellow],Shivaji Stadium,RAIL,FILL_THIS
+Dhaula Kuan [Conn: Pink],Shivaji Stadium,RAIL,FILL_THIS
+Delhi Aerocity,Dhaula Kuan [Conn: Pink],RAIL,FILL_THIS
+Delhi Aerocity,IGI Airport,RAIL,FILL_THIS
+Dwarka Sector 21 [Conn: Blue],IGI Airport,RAIL,FILL_THIS

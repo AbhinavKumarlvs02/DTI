@@ -1,0 +1,5570 @@
+{
+    "SHAHEED_STHAL(FIRST_STATION)_RED_LINE": {
+        "name": "Shaheed Sthal(First Station)",
+        "line": "Red line",
+        "lat": 28.6706109,
+        "lon": 77.4155822,
+        "connections": [
+            {
+                "to": "HINDON_RIVER_RED_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "HINDON_RIVER_RED_LINE": {
+        "name": "Hindon River",
+        "line": "Red line",
+        "lat": 28.878965,
+        "lon": 77.4154832,
+        "connections": [
+            {
+                "to": "SHAHEED_STHAL(FIRST_STATION)_RED_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "ARTHALA_RED_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            }
+        ]
+    },
+    "ARTHALA_RED_LINE": {
+        "name": "Arthala",
+        "line": "Red line",
+        "lat": 28.676999,
+        "lon": 77.3918919,
+        "connections": [
+            {
+                "to": "HINDON_RIVER_RED_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            },
+            {
+                "to": "MOHAN_NAGAR_RED_LINE",
+                "distance_km": 0.7,
+                "time_sec": 72,
+                "type": "rail"
+            }
+        ]
+    },
+    "MOHAN_NAGAR_RED_LINE": {
+        "name": "Mohan Nagar",
+        "line": "Red line",
+        "lat": 28.60631905,
+        "lon": 77.10608185,
+        "connections": [
+            {
+                "to": "ARTHALA_RED_LINE",
+                "distance_km": 0.7,
+                "time_sec": 72,
+                "type": "rail"
+            },
+            {
+                "to": "SHYAM_PARK_RED_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "SHYAM_PARK_RED_LINE": {
+        "name": "Shyam park",
+        "line": "Red line",
+        "lat": 28.6988072,
+        "lon": 28.6988072,
+        "connections": [
+            {
+                "to": "MOHAN_NAGAR_RED_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "MAJOR_MOHIT_SHARMA_RED_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "MAJOR_MOHIT_SHARMA_RED_LINE": {
+        "name": "Major Mohit Sharma",
+        "line": "Red line",
+        "lat": 28.6776112,
+        "lon": 77.3581426,
+        "connections": [
+            {
+                "to": "SHYAM_PARK_RED_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "RAJ_BAGH_RED_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "RAJ_BAGH_RED_LINE": {
+        "name": "Raj Bagh",
+        "line": "Red line",
+        "lat": 28.6408602,
+        "lon": 77.2094999,
+        "connections": [
+            {
+                "to": "MAJOR_MOHIT_SHARMA_RED_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "SHAHEED_NAGAR_RED_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "SHAHEED_NAGAR_RED_LINE": {
+        "name": "Shaheed Nagar",
+        "line": "Red line",
+        "lat": 28.5307795,
+        "lon": 77.2120573,
+        "connections": [
+            {
+                "to": "RAJ_BAGH_RED_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "DILSHAD_GARDEN_RED_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "DILSHAD_GARDEN_RED_LINE": {
+        "name": "Dilshad Garden",
+        "line": "Red line",
+        "lat": 28.67592,
+        "lon": 77.32142,
+        "connections": [
+            {
+                "to": "SHAHEED_NAGAR_RED_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "JHIL_MIL_RED_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            }
+        ]
+    },
+    "JHIL_MIL_RED_LINE": {
+        "name": "Jhil Mil",
+        "line": "Red line",
+        "lat": 28.67579,
+        "lon": 77.31239,
+        "connections": [
+            {
+                "to": "DILSHAD_GARDEN_RED_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            },
+            {
+                "to": "MANSAROVAR_PARK_RED_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "MANSAROVAR_PARK_RED_LINE": {
+        "name": "Mansarovar Park",
+        "line": "Red line",
+        "lat": 28.67544,
+        "lon": 77.30095,
+        "connections": [
+            {
+                "to": "JHIL_MIL_RED_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "SHAHDARA_RED_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "SHAHDARA_RED_LINE": {
+        "name": "Shahdara",
+        "line": "Red line",
+        "lat": 28.67345,
+        "lon": 77.28962,
+        "connections": [
+            {
+                "to": "MANSAROVAR_PARK_RED_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "WELCOME_[CONN:_PINK]_RED_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "WELCOME_[CONN:_PINK]_RED_LINE": {
+        "name": "Welcome [Conn: Pink]",
+        "line": "Red line",
+        "lat": 28.6718,
+        "lon": 77.27756,
+        "connections": [
+            {
+                "to": "SHAHDARA_RED_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "SEELAMPUR_RED_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "SEELAMPUR_RED_LINE": {
+        "name": "Seelampur",
+        "line": "Red line",
+        "lat": 28.66989,
+        "lon": 77.2667,
+        "connections": [
+            {
+                "to": "WELCOME_[CONN:_PINK]_RED_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "SHASTRI_PARK_RED_LINE",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            }
+        ]
+    },
+    "SHASTRI_PARK_RED_LINE": {
+        "name": "Shastri Park",
+        "line": "Red line",
+        "lat": 28.668,
+        "lon": 77.24994,
+        "connections": [
+            {
+                "to": "SEELAMPUR_RED_LINE",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            },
+            {
+                "to": "KASHMERE_GATE_[CONN:_VIOLET,YELLOW]_RED_LINE",
+                "distance_km": 2.1,
+                "time_sec": 216,
+                "type": "rail"
+            }
+        ]
+    },
+    "KASHMERE_GATE_[CONN:_VIOLET,YELLOW]_RED_LINE": {
+        "name": "Kashmere Gate [Conn: Violet,Yellow]",
+        "line": "Red line",
+        "lat": 28.6675,
+        "lon": 77.22817,
+        "connections": [
+            {
+                "to": "SHASTRI_PARK_RED_LINE",
+                "distance_km": 2.1,
+                "time_sec": 216,
+                "type": "rail"
+            },
+            {
+                "to": "TIS_HAZARI_RED_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "TIS_HAZARI_RED_LINE": {
+        "name": "Tis Hazari",
+        "line": "Red line",
+        "lat": 28.66711,
+        "lon": 77.21653,
+        "connections": [
+            {
+                "to": "KASHMERE_GATE_[CONN:_VIOLET,YELLOW]_RED_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "PUL_BANGASH_RED_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            }
+        ]
+    },
+    "PUL_BANGASH_RED_LINE": {
+        "name": "Pul Bangash",
+        "line": "Red line",
+        "lat": 28.66636,
+        "lon": 77.20727,
+        "connections": [
+            {
+                "to": "TIS_HAZARI_RED_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            },
+            {
+                "to": "PRATAP_NAGAR_RED_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            }
+        ]
+    },
+    "PRATAP_NAGAR_RED_LINE": {
+        "name": "Pratap Nagar",
+        "line": "Red line",
+        "lat": 28.66662,
+        "lon": 77.19882,
+        "connections": [
+            {
+                "to": "PUL_BANGASH_RED_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            },
+            {
+                "to": "SHASTRI_NAGAR_RED_LINE",
+                "distance_km": 1.7,
+                "time_sec": 174,
+                "type": "rail"
+            }
+        ]
+    },
+    "SHASTRI_NAGAR_RED_LINE": {
+        "name": "Shastri Nagar",
+        "line": "Red line",
+        "lat": 28.66999,
+        "lon": 77.18169,
+        "connections": [
+            {
+                "to": "PRATAP_NAGAR_RED_LINE",
+                "distance_km": 1.7,
+                "time_sec": 174,
+                "type": "rail"
+            },
+            {
+                "to": "INDERLOK_[CONN:_GREEN]_RED_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "INDERLOK_[CONN:_GREEN]_RED_LINE": {
+        "name": "Inderlok [Conn: Green]",
+        "line": "Red line",
+        "lat": 28.67319,
+        "lon": 77.16994,
+        "connections": [
+            {
+                "to": "SHASTRI_NAGAR_RED_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "KANHAIYA_NAGAR_RED_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "KANHAIYA_NAGAR_RED_LINE": {
+        "name": "Kanhaiya Nagar",
+        "line": "Red line",
+        "lat": 28.68254,
+        "lon": 77.16459,
+        "connections": [
+            {
+                "to": "INDERLOK_[CONN:_GREEN]_RED_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "KESHAV_PURAM_RED_LINE",
+                "distance_km": 0.7,
+                "time_sec": 72,
+                "type": "rail"
+            }
+        ]
+    },
+    "KESHAV_PURAM_RED_LINE": {
+        "name": "Keshav Puram",
+        "line": "Red line",
+        "lat": 28.68894,
+        "lon": 77.1616,
+        "connections": [
+            {
+                "to": "KANHAIYA_NAGAR_RED_LINE",
+                "distance_km": 0.7,
+                "time_sec": 72,
+                "type": "rail"
+            },
+            {
+                "to": "NETAJI_SUBASH_PLACE_[CONN:_PINK]_RED_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "NETAJI_SUBASH_PLACE_[CONN:_PINK]_RED_LINE": {
+        "name": "Netaji Subash Place [Conn: Pink]",
+        "line": "Red line",
+        "lat": 28.69591,
+        "lon": 77.15226,
+        "connections": [
+            {
+                "to": "KESHAV_PURAM_RED_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "KOHAT_ENCLAVE_RED_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "KOHAT_ENCLAVE_RED_LINE": {
+        "name": "Kohat Enclave",
+        "line": "Red line",
+        "lat": 28.6981,
+        "lon": 77.14024,
+        "connections": [
+            {
+                "to": "NETAJI_SUBASH_PLACE_[CONN:_PINK]_RED_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "PITAM_PURA_RED_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "PITAM_PURA_RED_LINE": {
+        "name": "Pitam Pura",
+        "line": "Red line",
+        "lat": 28.70317,
+        "lon": 77.13223,
+        "connections": [
+            {
+                "to": "KOHAT_ENCLAVE_RED_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "ROHINI_EAST_RED_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            }
+        ]
+    },
+    "ROHINI_EAST_RED_LINE": {
+        "name": "Rohini East",
+        "line": "Red line",
+        "lat": 28.7076,
+        "lon": 77.12591,
+        "connections": [
+            {
+                "to": "PITAM_PURA_RED_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            },
+            {
+                "to": "ROHINI_WEST_RED_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "ROHINI_WEST_RED_LINE": {
+        "name": "Rohini West",
+        "line": "Red line",
+        "lat": 28.71483,
+        "lon": 77.11467,
+        "connections": [
+            {
+                "to": "ROHINI_EAST_RED_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "RITHALA(LAST_STATION)_RED_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "RITHALA(LAST_STATION)_RED_LINE": {
+        "name": "Rithala(last station)",
+        "line": "Red line",
+        "lat": 28.72072,
+        "lon": 77.10713,
+        "connections": [
+            {
+                "to": "ROHINI_WEST_RED_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "SAMAYPUR_BADLI(FIRST_STATION)_YELLOW_LINE": {
+        "name": "Samaypur Badli(First Station)",
+        "line": "Yellow line",
+        "lat": 28.7446158,
+        "lon": 77.1382654,
+        "connections": [
+            {
+                "to": "ROHINI_SECTOR_18-19_YELLOW_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            }
+        ]
+    },
+    "ROHINI_SECTOR_18-19_YELLOW_LINE": {
+        "name": "Rohini Sector 18-19",
+        "line": "Yellow line",
+        "lat": 28.7383477,
+        "lon": 77.1398323,
+        "connections": [
+            {
+                "to": "SAMAYPUR_BADLI(FIRST_STATION)_YELLOW_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            },
+            {
+                "to": "HAIDERPUR_BADLI_MOR_YELLOW_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "HAIDERPUR_BADLI_MOR_YELLOW_LINE": {
+        "name": "Haiderpur Badli Mor",
+        "line": "Yellow line",
+        "lat": 28.7301214,
+        "lon": 77.1494029,
+        "connections": [
+            {
+                "to": "ROHINI_SECTOR_18-19_YELLOW_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "JAHANGIRPURI_YELLOW_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "JAHANGIRPURI_YELLOW_LINE": {
+        "name": "Jahangirpuri",
+        "line": "Yellow line",
+        "lat": 28.72592,
+        "lon": 77.16267,
+        "connections": [
+            {
+                "to": "HAIDERPUR_BADLI_MOR_YELLOW_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "ADARSH_NAGAR_YELLOW_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "ADARSH_NAGAR_YELLOW_LINE": {
+        "name": "Adarsh Nagar",
+        "line": "Yellow line",
+        "lat": 28.71642,
+        "lon": 77.17046,
+        "connections": [
+            {
+                "to": "JAHANGIRPURI_YELLOW_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "AZADPUR_[CONN:_PINK]_YELLOW_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            }
+        ]
+    },
+    "AZADPUR_[CONN:_PINK]_YELLOW_LINE": {
+        "name": "Azadpur [Conn: Pink]",
+        "line": "Yellow line",
+        "lat": 28.70696,
+        "lon": 77.18053,
+        "connections": [
+            {
+                "to": "ADARSH_NAGAR_YELLOW_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            },
+            {
+                "to": "MODEL_TOWN_YELLOW_LINE",
+                "distance_km": 1.4,
+                "time_sec": 144,
+                "type": "rail"
+            }
+        ]
+    },
+    "MODEL_TOWN_YELLOW_LINE": {
+        "name": "Model Town",
+        "line": "Yellow line",
+        "lat": 28.70278,
+        "lon": 77.19363,
+        "connections": [
+            {
+                "to": "AZADPUR_[CONN:_PINK]_YELLOW_LINE",
+                "distance_km": 1.4,
+                "time_sec": 144,
+                "type": "rail"
+            },
+            {
+                "to": "GURU_TEGH_BAHADUR_NAGAR_YELLOW_LINE",
+                "distance_km": 1.4,
+                "time_sec": 144,
+                "type": "rail"
+            }
+        ]
+    },
+    "GURU_TEGH_BAHADUR_NAGAR_YELLOW_LINE": {
+        "name": "Guru Tegh Bahadur Nagar",
+        "line": "Yellow line",
+        "lat": 28.69785,
+        "lon": 77.20722,
+        "connections": [
+            {
+                "to": "MODEL_TOWN_YELLOW_LINE",
+                "distance_km": 1.4,
+                "time_sec": 144,
+                "type": "rail"
+            },
+            {
+                "to": "VISHWAVIDYALAYA_YELLOW_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            }
+        ]
+    },
+    "VISHWAVIDYALAYA_YELLOW_LINE": {
+        "name": "Vishwavidyalaya",
+        "line": "Yellow line",
+        "lat": 28.6948,
+        "lon": 77.21483,
+        "connections": [
+            {
+                "to": "GURU_TEGH_BAHADUR_NAGAR_YELLOW_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            },
+            {
+                "to": "VIDHAN_SABHA_YELLOW_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "VIDHAN_SABHA_YELLOW_LINE": {
+        "name": "Vidhan Sabha",
+        "line": "Yellow line",
+        "lat": 28.68802,
+        "lon": 77.2214,
+        "connections": [
+            {
+                "to": "VISHWAVIDYALAYA_YELLOW_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "CIVIL_LINES_YELLOW_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "CIVIL_LINES_YELLOW_LINE": {
+        "name": "Civil Lines",
+        "line": "Yellow line",
+        "lat": 28.6768508,
+        "lon": 77.2250299,
+        "connections": [
+            {
+                "to": "VIDHAN_SABHA_YELLOW_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "KASHMERE_GATE_[CONN:_VIOLET]_YELLOW_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "KASHMERE_GATE_[CONN:_VIOLET]_YELLOW_LINE": {
+        "name": "Kashmere Gate [Conn: Violet]",
+        "line": "Yellow line",
+        "lat": 28.6675,
+        "lon": 77.22817,
+        "connections": [
+            {
+                "to": "CIVIL_LINES_YELLOW_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "CHANDNI_CHOWK_YELLOW_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "CHANDNI_CHOWK_YELLOW_LINE": {
+        "name": "Chandni Chowk",
+        "line": "Yellow line",
+        "lat": 28.65785,
+        "lon": 77.23014,
+        "connections": [
+            {
+                "to": "KASHMERE_GATE_[CONN:_VIOLET]_YELLOW_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "CHAWRI_BAZAR_YELLOW_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "CHAWRI_BAZAR_YELLOW_LINE": {
+        "name": "Chawri Bazar",
+        "line": "Yellow line",
+        "lat": 28.64931,
+        "lon": 77.22637,
+        "connections": [
+            {
+                "to": "CHANDNI_CHOWK_YELLOW_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "NEW_DELHI_[CONN:_ORANGE]_YELLOW_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            }
+        ]
+    },
+    "NEW_DELHI_[CONN:_ORANGE]_YELLOW_LINE": {
+        "name": "New Delhi [Conn: Orange]",
+        "line": "Yellow line",
+        "lat": 28.64307,
+        "lon": 77.22144,
+        "connections": [
+            {
+                "to": "CHAWRI_BAZAR_YELLOW_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            },
+            {
+                "to": "RAJIV_CHOWK_[CONN:_BLUE]_YELLOW_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "RAJIV_CHOWK_[CONN:_BLUE]_YELLOW_LINE": {
+        "name": "Rajiv Chowk [Conn: Blue]",
+        "line": "Yellow line",
+        "lat": 28.63282,
+        "lon": 77.21826,
+        "connections": [
+            {
+                "to": "NEW_DELHI_[CONN:_ORANGE]_YELLOW_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "PATEL_CHOWK_YELLOW_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "PATEL_CHOWK_YELLOW_LINE": {
+        "name": "Patel Chowk",
+        "line": "Yellow line",
+        "lat": 28.62295,
+        "lon": 77.21389,
+        "connections": [
+            {
+                "to": "RAJIV_CHOWK_[CONN:_BLUE]_YELLOW_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "CENTRAL_SECRETARIAT_[CONN:_VIOLET]_YELLOW_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            }
+        ]
+    },
+    "CENTRAL_SECRETARIAT_[CONN:_VIOLET]_YELLOW_LINE": {
+        "name": "Central Secretariat [Conn: Violet]",
+        "line": "Yellow line",
+        "lat": 28.61474,
+        "lon": 77.21191,
+        "connections": [
+            {
+                "to": "PATEL_CHOWK_YELLOW_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            },
+            {
+                "to": "UDYOG_BHAWAN_YELLOW_LINE",
+                "distance_km": 0.3,
+                "time_sec": 30,
+                "type": "rail"
+            }
+        ]
+    },
+    "UDYOG_BHAWAN_YELLOW_LINE": {
+        "name": "Udyog Bhawan",
+        "line": "Yellow line",
+        "lat": 28.61166,
+        "lon": 77.21198,
+        "connections": [
+            {
+                "to": "CENTRAL_SECRETARIAT_[CONN:_VIOLET]_YELLOW_LINE",
+                "distance_km": 0.3,
+                "time_sec": 30,
+                "type": "rail"
+            },
+            {
+                "to": "LOK_KALYAN_MARG_YELLOW_LINE",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            }
+        ]
+    },
+    "LOK_KALYAN_MARG_YELLOW_LINE": {
+        "name": "Lok Kalyan Marg",
+        "line": "Yellow line",
+        "lat": 28.59726,
+        "lon": 77.21088,
+        "connections": [
+            {
+                "to": "UDYOG_BHAWAN_YELLOW_LINE",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            },
+            {
+                "to": "JOR_BAGH_YELLOW_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "JOR_BAGH_YELLOW_LINE": {
+        "name": "Jor Bagh",
+        "line": "Yellow line",
+        "lat": 28.58708,
+        "lon": 77.21209,
+        "connections": [
+            {
+                "to": "LOK_KALYAN_MARG_YELLOW_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "DILLI_HAAT_INA_[CONN:_PINK]_YELLOW_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "DILLI_HAAT_INA_[CONN:_PINK]_YELLOW_LINE": {
+        "name": "Dilli Haat INA [Conn: Pink]",
+        "line": "Yellow line",
+        "lat": 28.57526,
+        "lon": 77.20935,
+        "connections": [
+            {
+                "to": "JOR_BAGH_YELLOW_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "AIIMS_YELLOW_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            }
+        ]
+    },
+    "AIIMS_YELLOW_LINE": {
+        "name": "AIIMS",
+        "line": "Yellow line",
+        "lat": 28.56892,
+        "lon": 77.20771,
+        "connections": [
+            {
+                "to": "DILLI_HAAT_INA_[CONN:_PINK]_YELLOW_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            },
+            {
+                "to": "GREEN_PARK_YELLOW_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "GREEN_PARK_YELLOW_LINE": {
+        "name": "Green Park",
+        "line": "Yellow line",
+        "lat": 28.55979,
+        "lon": 77.20682,
+        "connections": [
+            {
+                "to": "AIIMS_YELLOW_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "HAUZ_KHAS_[CONN:_MAGENTA]_YELLOW_LINE",
+                "distance_km": 1.8,
+                "time_sec": 185,
+                "type": "rail"
+            }
+        ]
+    },
+    "HAUZ_KHAS_[CONN:_MAGENTA]_YELLOW_LINE": {
+        "name": "Hauz Khas [Conn: Magenta]",
+        "line": "Yellow line",
+        "lat": 28.54335,
+        "lon": 77.20667,
+        "connections": [
+            {
+                "to": "GREEN_PARK_YELLOW_LINE",
+                "distance_km": 1.8,
+                "time_sec": 185,
+                "type": "rail"
+            },
+            {
+                "to": "MALVIYA_NAGAR_YELLOW_LINE",
+                "distance_km": 1.7,
+                "time_sec": 174,
+                "type": "rail"
+            }
+        ]
+    },
+    "MALVIYA_NAGAR_YELLOW_LINE": {
+        "name": "Malviya Nagar",
+        "line": "Yellow line",
+        "lat": 28.52798,
+        "lon": 77.20565,
+        "connections": [
+            {
+                "to": "HAUZ_KHAS_[CONN:_MAGENTA]_YELLOW_LINE",
+                "distance_km": 1.7,
+                "time_sec": 174,
+                "type": "rail"
+            },
+            {
+                "to": "SAKET_YELLOW_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            }
+        ]
+    },
+    "SAKET_YELLOW_LINE": {
+        "name": "Saket",
+        "line": "Yellow line",
+        "lat": 28.5206,
+        "lon": 77.20138,
+        "connections": [
+            {
+                "to": "MALVIYA_NAGAR_YELLOW_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            },
+            {
+                "to": "QUTAB_MINAR_YELLOW_LINE",
+                "distance_km": 1.7,
+                "time_sec": 174,
+                "type": "rail"
+            }
+        ]
+    },
+    "QUTAB_MINAR_YELLOW_LINE": {
+        "name": "Qutab Minar",
+        "line": "Yellow line",
+        "lat": 28.51302,
+        "lon": 77.18648,
+        "connections": [
+            {
+                "to": "SAKET_YELLOW_LINE",
+                "distance_km": 1.7,
+                "time_sec": 174,
+                "type": "rail"
+            },
+            {
+                "to": "CHHATTARPUR_YELLOW_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "CHHATTARPUR_YELLOW_LINE": {
+        "name": "Chhattarpur",
+        "line": "Yellow line",
+        "lat": 28.50671,
+        "lon": 77.17484,
+        "connections": [
+            {
+                "to": "QUTAB_MINAR_YELLOW_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "SULTANPUR_YELLOW_LINE",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            }
+        ]
+    },
+    "SULTANPUR_YELLOW_LINE": {
+        "name": "Sultanpur",
+        "line": "Yellow line",
+        "lat": 28.49927,
+        "lon": 77.16153,
+        "connections": [
+            {
+                "to": "CHHATTARPUR_YELLOW_LINE",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            },
+            {
+                "to": "GHITORNI_YELLOW_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "GHITORNI_YELLOW_LINE": {
+        "name": "Ghitorni",
+        "line": "Yellow line",
+        "lat": 28.49383,
+        "lon": 77.14922,
+        "connections": [
+            {
+                "to": "SULTANPUR_YELLOW_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "ARJAN_GARH_YELLOW_LINE",
+                "distance_km": 2.7,
+                "time_sec": 277,
+                "type": "rail"
+            }
+        ]
+    },
+    "ARJAN_GARH_YELLOW_LINE": {
+        "name": "Arjan Garh",
+        "line": "Yellow line",
+        "lat": 28.48076,
+        "lon": 77.12583,
+        "connections": [
+            {
+                "to": "GHITORNI_YELLOW_LINE",
+                "distance_km": 2.7,
+                "time_sec": 277,
+                "type": "rail"
+            },
+            {
+                "to": "GURU_DRONACHARYA_YELLOW_LINE",
+                "distance_km": 2.3,
+                "time_sec": 236,
+                "type": "rail"
+            }
+        ]
+    },
+    "GURU_DRONACHARYA_YELLOW_LINE": {
+        "name": "Guru Dronacharya",
+        "line": "Yellow line",
+        "lat": 28.48203,
+        "lon": 77.10232,
+        "connections": [
+            {
+                "to": "ARJAN_GARH_YELLOW_LINE",
+                "distance_km": 2.3,
+                "time_sec": 236,
+                "type": "rail"
+            },
+            {
+                "to": "SIKANDARPUR_[CONN:_RAPID]_YELLOW_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "SIKANDARPUR_[CONN:_RAPID]_YELLOW_LINE": {
+        "name": "Sikandarpur [Conn: Rapid]",
+        "line": "Yellow line",
+        "lat": 28.48182,
+        "lon": 77.09235,
+        "connections": [
+            {
+                "to": "GURU_DRONACHARYA_YELLOW_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "MG_ROAD_YELLOW_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "MG_ROAD_YELLOW_LINE": {
+        "name": "MG Road",
+        "line": "Yellow line",
+        "lat": 28.47957,
+        "lon": 77.08006,
+        "connections": [
+            {
+                "to": "SIKANDARPUR_[CONN:_RAPID]_YELLOW_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "IFFCO_CHOWK_YELLOW_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "IFFCO_CHOWK_YELLOW_LINE": {
+        "name": "IFFCO Chowk",
+        "line": "Yellow line",
+        "lat": 28.47209,
+        "lon": 77.07175,
+        "connections": [
+            {
+                "to": "MG_ROAD_YELLOW_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "HUDA_CITY_CENTRE_YELLOW_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            }
+        ]
+    },
+    "HUDA_CITY_CENTRE_YELLOW_LINE": {
+        "name": "Huda City Centre",
+        "line": "Yellow line",
+        "lat": 28.45927,
+        "lon": 77.07268,
+        "connections": [
+            {
+                "to": "IFFCO_CHOWK_YELLOW_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            }
+        ]
+    },
+    "DWARKA_SECTOR_21(FIRST_STATION)_[CONN:_ORANGE]_BLUE_LINE": {
+        "name": "Dwarka Sector 21(First station) [Conn: Orange]",
+        "line": "Blue line",
+        "lat": 28.55226,
+        "lon": 77.05828,
+        "connections": [
+            {
+                "to": "DWARKA_SECTOR_8_BLUE_LINE",
+                "distance_km": 1.7,
+                "time_sec": 174,
+                "type": "rail"
+            }
+        ]
+    },
+    "DWARKA_SECTOR_8_BLUE_LINE": {
+        "name": "Dwarka Sector 8",
+        "line": "Blue line",
+        "lat": 28.56583,
+        "lon": 77.06706,
+        "connections": [
+            {
+                "to": "DWARKA_SECTOR_21(FIRST_STATION)_[CONN:_ORANGE]_BLUE_LINE",
+                "distance_km": 1.7,
+                "time_sec": 174,
+                "type": "rail"
+            },
+            {
+                "to": "DWARKA_SECTOR_9_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "DWARKA_SECTOR_9_BLUE_LINE": {
+        "name": "Dwarka Sector 9",
+        "line": "Blue line",
+        "lat": 28.57487,
+        "lon": 77.06454,
+        "connections": [
+            {
+                "to": "DWARKA_SECTOR_8_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "DWARKA_SECTOR_10_BLUE_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "DWARKA_SECTOR_10_BLUE_LINE": {
+        "name": "Dwarka Sector 10",
+        "line": "Blue line",
+        "lat": 28.58068,
+        "lon": 77.05682,
+        "connections": [
+            {
+                "to": "DWARKA_SECTOR_9_BLUE_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "DWARKA_SECTOR_11_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "DWARKA_SECTOR_11_BLUE_LINE": {
+        "name": "Dwarka Sector 11",
+        "line": "Blue line",
+        "lat": 28.58657,
+        "lon": 77.04929,
+        "connections": [
+            {
+                "to": "DWARKA_SECTOR_10_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "DWARKA_SECTOR_12_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "DWARKA_SECTOR_12_BLUE_LINE": {
+        "name": "Dwarka Sector 12",
+        "line": "Blue line",
+        "lat": 28.59232,
+        "lon": 77.04051,
+        "connections": [
+            {
+                "to": "DWARKA_SECTOR_11_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "DWARKA_SECTOR_13_BLUE_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            }
+        ]
+    },
+    "DWARKA_SECTOR_13_BLUE_LINE": {
+        "name": "Dwarka Sector 13",
+        "line": "Blue line",
+        "lat": 28.59722,
+        "lon": 77.03326,
+        "connections": [
+            {
+                "to": "DWARKA_SECTOR_12_BLUE_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            },
+            {
+                "to": "DWARKA_SECTOR_14_BLUE_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            }
+        ]
+    },
+    "DWARKA_SECTOR_14_BLUE_LINE": {
+        "name": "Dwarka Sector 14",
+        "line": "Blue line",
+        "lat": 28.60223,
+        "lon": 77.02588,
+        "connections": [
+            {
+                "to": "DWARKA_SECTOR_13_BLUE_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            },
+            {
+                "to": "DWARKA_[CONN:_GRAY]_BLUE_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            }
+        ]
+    },
+    "DWARKA_[CONN:_GRAY]_BLUE_LINE": {
+        "name": "Dwarka [Conn: Gray]",
+        "line": "Blue line",
+        "lat": 28.61564,
+        "lon": 77.02197,
+        "connections": [
+            {
+                "to": "DWARKA_SECTOR_14_BLUE_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            },
+            {
+                "to": "DWARKA_MOR_BLUE_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "DWARKA_MOR_BLUE_LINE": {
+        "name": "Dwarka Mor",
+        "line": "Blue line",
+        "lat": 28.61932,
+        "lon": 77.03326,
+        "connections": [
+            {
+                "to": "DWARKA_[CONN:_GRAY]_BLUE_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "NAWADA_BLUE_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "NAWADA_BLUE_LINE": {
+        "name": "Nawada",
+        "line": "Blue line",
+        "lat": 28.62025,
+        "lon": 77.04514,
+        "connections": [
+            {
+                "to": "DWARKA_MOR_BLUE_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "UTTAM_NAGAR_WEST_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "UTTAM_NAGAR_WEST_BLUE_LINE": {
+        "name": "Uttam Nagar West",
+        "line": "Blue line",
+        "lat": 28.62481,
+        "lon": 77.0653,
+        "connections": [
+            {
+                "to": "NAWADA_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "UTTAM_NAGAR_EAST_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "UTTAM_NAGAR_EAST_BLUE_LINE": {
+        "name": "Uttam Nagar East",
+        "line": "Blue line",
+        "lat": 28.62177,
+        "lon": 77.05585,
+        "connections": [
+            {
+                "to": "UTTAM_NAGAR_WEST_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "JANAK_PURI_WEST_[CONN:_MAGENTA]_BLUE_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "JANAK_PURI_WEST_[CONN:_MAGENTA]_BLUE_LINE": {
+        "name": "Janak Puri West [Conn: Magenta]",
+        "line": "Blue line",
+        "lat": 28.62943,
+        "lon": 77.07767,
+        "connections": [
+            {
+                "to": "UTTAM_NAGAR_EAST_BLUE_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "JANAK_PURI_EAST_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "JANAK_PURI_EAST_BLUE_LINE": {
+        "name": "Janak Puri East",
+        "line": "Blue line",
+        "lat": 28.63305,
+        "lon": 77.08669,
+        "connections": [
+            {
+                "to": "JANAK_PURI_WEST_[CONN:_MAGENTA]_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "TILAK_NAGAR_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "TILAK_NAGAR_BLUE_LINE": {
+        "name": "Tilak Nagar",
+        "line": "Blue line",
+        "lat": 28.63657,
+        "lon": 77.09648,
+        "connections": [
+            {
+                "to": "JANAK_PURI_EAST_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "SUBHASH_NAGAR_BLUE_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            }
+        ]
+    },
+    "SUBHASH_NAGAR_BLUE_LINE": {
+        "name": "Subhash Nagar",
+        "line": "Blue line",
+        "lat": 28.64039,
+        "lon": 77.10495,
+        "connections": [
+            {
+                "to": "TILAK_NAGAR_BLUE_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            },
+            {
+                "to": "TAGORE_GARDEN_BLUE_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            }
+        ]
+    },
+    "TAGORE_GARDEN_BLUE_LINE": {
+        "name": "Tagore Garden",
+        "line": "Blue line",
+        "lat": 28.64379,
+        "lon": 77.11284,
+        "connections": [
+            {
+                "to": "SUBHASH_NAGAR_BLUE_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            },
+            {
+                "to": "RAJOURI_GARDEN_[CONN:_PINK]_BLUE_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "RAJOURI_GARDEN_[CONN:_PINK]_BLUE_LINE": {
+        "name": "Rajouri Garden [Conn: Pink]",
+        "line": "Blue line",
+        "lat": 28.64902,
+        "lon": 77.1227,
+        "connections": [
+            {
+                "to": "TAGORE_GARDEN_BLUE_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "RAMESH_NAGAR_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "RAMESH_NAGAR_BLUE_LINE": {
+        "name": "Ramesh Nagar",
+        "line": "Blue line",
+        "lat": 28.65274,
+        "lon": 77.13164,
+        "connections": [
+            {
+                "to": "RAJOURI_GARDEN_[CONN:_PINK]_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "MOTI_NAGAR_BLUE_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "MOTI_NAGAR_BLUE_LINE": {
+        "name": "Moti Nagar",
+        "line": "Blue line",
+        "lat": 28.65784,
+        "lon": 77.14248,
+        "connections": [
+            {
+                "to": "RAMESH_NAGAR_BLUE_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "KIRTI_NAGAR_[CONN:_GREEN]_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "KIRTI_NAGAR_[CONN:_GREEN]_BLUE_LINE": {
+        "name": "Kirti Nagar [Conn: Green]",
+        "line": "Blue line",
+        "lat": 28.65575,
+        "lon": 77.15057,
+        "connections": [
+            {
+                "to": "MOTI_NAGAR_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "SHADIPUR_BLUE_LINE",
+                "distance_km": 0.7,
+                "time_sec": 72,
+                "type": "rail"
+            }
+        ]
+    },
+    "SHADIPUR_BLUE_LINE": {
+        "name": "Shadipur",
+        "line": "Blue line",
+        "lat": 28.6516,
+        "lon": 77.15824,
+        "connections": [
+            {
+                "to": "KIRTI_NAGAR_[CONN:_GREEN]_BLUE_LINE",
+                "distance_km": 0.7,
+                "time_sec": 72,
+                "type": "rail"
+            },
+            {
+                "to": "PATEL_NAGAR_BLUE_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "PATEL_NAGAR_BLUE_LINE": {
+        "name": "Patel Nagar",
+        "line": "Blue line",
+        "lat": 28.64498,
+        "lon": 77.16929,
+        "connections": [
+            {
+                "to": "SHADIPUR_BLUE_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "RAJENDRA_PLACE_BLUE_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            }
+        ]
+    },
+    "RAJENDRA_PLACE_BLUE_LINE": {
+        "name": "Rajendra Place",
+        "line": "Blue line",
+        "lat": 28.6425,
+        "lon": 77.17815,
+        "connections": [
+            {
+                "to": "PATEL_NAGAR_BLUE_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            },
+            {
+                "to": "KAROL_BAGH_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "KAROL_BAGH_BLUE_LINE": {
+        "name": "Karol Bagh",
+        "line": "Blue line",
+        "lat": 28.644,
+        "lon": 77.18855,
+        "connections": [
+            {
+                "to": "RAJENDRA_PLACE_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "JHANDEWALAN_BLUE_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "JHANDEWALAN_BLUE_LINE": {
+        "name": "Jhandewalan",
+        "line": "Blue line",
+        "lat": 28.64427,
+        "lon": 77.19988,
+        "connections": [
+            {
+                "to": "KAROL_BAGH_BLUE_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "R_K_ASHRAM_MARG_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "R_K_ASHRAM_MARG_BLUE_LINE": {
+        "name": "R K Ashram Marg",
+        "line": "Blue line",
+        "lat": 28.63923,
+        "lon": 77.2084,
+        "connections": [
+            {
+                "to": "JHANDEWALAN_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "RAJIV_CHOWK_[CONN:_YELLOW]_BLUE_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "RAJIV_CHOWK_[CONN:_YELLOW]_BLUE_LINE": {
+        "name": "Rajiv Chowk [Conn: Yellow]",
+        "line": "Blue line",
+        "lat": 28.63282,
+        "lon": 77.21826,
+        "connections": [
+            {
+                "to": "R_K_ASHRAM_MARG_BLUE_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "BARAKHAMBA_BLUE_LINE",
+                "distance_km": 0.7,
+                "time_sec": 72,
+                "type": "rail"
+            }
+        ]
+    },
+    "BARAKHAMBA_BLUE_LINE": {
+        "name": "Barakhamba",
+        "line": "Blue line",
+        "lat": 28.63003,
+        "lon": 77.22436,
+        "connections": [
+            {
+                "to": "RAJIV_CHOWK_[CONN:_YELLOW]_BLUE_LINE",
+                "distance_km": 0.7,
+                "time_sec": 72,
+                "type": "rail"
+            },
+            {
+                "to": "MANDI_HOUSE_[CONN:_VIOLET]_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "MANDI_HOUSE_[CONN:_VIOLET]_BLUE_LINE": {
+        "name": "Mandi House [Conn: Violet]",
+        "line": "Blue line",
+        "lat": 28.62588,
+        "lon": 77.2341,
+        "connections": [
+            {
+                "to": "BARAKHAMBA_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "SUPREME_COURT_(PRAGATI_MAIDAN)_BLUE_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            }
+        ]
+    },
+    "SUPREME_COURT_(PRAGATI_MAIDAN)_BLUE_LINE": {
+        "name": "Supreme Court (Pragati Maidan)",
+        "line": "Blue line",
+        "lat": 28.62342,
+        "lon": 77.2425,
+        "connections": [
+            {
+                "to": "MANDI_HOUSE_[CONN:_VIOLET]_BLUE_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            },
+            {
+                "to": "INDRAPRASTHA_BLUE_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            }
+        ]
+    },
+    "INDRAPRASTHA_BLUE_LINE": {
+        "name": "Indraprastha",
+        "line": "Blue line",
+        "lat": 28.62051,
+        "lon": 77.24993,
+        "connections": [
+            {
+                "to": "SUPREME_COURT_(PRAGATI_MAIDAN)_BLUE_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            },
+            {
+                "to": "YAMUNA_BANK_BLUE_LINE",
+                "distance_km": 1.8,
+                "time_sec": 185,
+                "type": "rail"
+            }
+        ]
+    },
+    "YAMUNA_BANK_BLUE_LINE": {
+        "name": "Yamuna Bank",
+        "line": "Blue line",
+        "lat": 28.62331,
+        "lon": 77.26792,
+        "connections": [
+            {
+                "to": "INDRAPRASTHA_BLUE_LINE",
+                "distance_km": 1.8,
+                "time_sec": 185,
+                "type": "rail"
+            },
+            {
+                "to": "AKSHARDHAM_BLUE_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "YAMUNA_BANK_BLUE_LINE_BRANCH",
+                "distance_km": 0.0,
+                "time_sec": 300,
+                "type": "transfer"
+            }
+        ]
+    },
+    "AKSHARDHAM_BLUE_LINE": {
+        "name": "Akshardham",
+        "line": "Blue line",
+        "lat": 28.61806,
+        "lon": 77.27869,
+        "connections": [
+            {
+                "to": "YAMUNA_BANK_BLUE_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "MAYUR_VIHAR_PHASE-1_[CONN:_PINK]_BLUE_LINE",
+                "distance_km": 1.8,
+                "time_sec": 185,
+                "type": "rail"
+            }
+        ]
+    },
+    "MAYUR_VIHAR_PHASE-1_[CONN:_PINK]_BLUE_LINE": {
+        "name": "Mayur Vihar Phase-1 [Conn: Pink]",
+        "line": "Blue line",
+        "lat": 28.60442,
+        "lon": 77.29455,
+        "connections": [
+            {
+                "to": "AKSHARDHAM_BLUE_LINE",
+                "distance_km": 1.8,
+                "time_sec": 185,
+                "type": "rail"
+            },
+            {
+                "to": "MAYUR_VIHAR_EXTENTION_BLUE_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "MAYUR_VIHAR_EXTENTION_BLUE_LINE": {
+        "name": "Mayur Vihar Extention",
+        "line": "Blue line",
+        "lat": 28.59415815,
+        "lon": 77.29458935,
+        "connections": [
+            {
+                "to": "MAYUR_VIHAR_PHASE-1_[CONN:_PINK]_BLUE_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "NEW_ASHOK_NAGAR_BLUE_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            }
+        ]
+    },
+    "NEW_ASHOK_NAGAR_BLUE_LINE": {
+        "name": "New Ashok Nagar",
+        "line": "Blue line",
+        "lat": 28.58916,
+        "lon": 77.30204,
+        "connections": [
+            {
+                "to": "MAYUR_VIHAR_EXTENTION_BLUE_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            },
+            {
+                "to": "NOIDA_SECTOR_15_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "NOIDA_SECTOR_15_BLUE_LINE": {
+        "name": "Noida Sector 15",
+        "line": "Blue line",
+        "lat": 28.58512,
+        "lon": 77.31139,
+        "connections": [
+            {
+                "to": "NEW_ASHOK_NAGAR_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "NOIDA_SECTOR_16_BLUE_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "NOIDA_SECTOR_16_BLUE_LINE": {
+        "name": "Noida Sector 16",
+        "line": "Blue line",
+        "lat": 28.57819,
+        "lon": 77.31757,
+        "connections": [
+            {
+                "to": "NOIDA_SECTOR_15_BLUE_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "NOIDA_SECTOR_18_BLUE_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "NOIDA_SECTOR_18_BLUE_LINE": {
+        "name": "Noida Sector 18",
+        "line": "Blue line",
+        "lat": 28.57081,
+        "lon": 77.32612,
+        "connections": [
+            {
+                "to": "NOIDA_SECTOR_16_BLUE_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "BOTANICAL_GARDEN_[CONN:_MAGENTA]_BLUE_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "BOTANICAL_GARDEN_[CONN:_MAGENTA]_BLUE_LINE": {
+        "name": "Botanical Garden [Conn: Magenta]",
+        "line": "Blue line",
+        "lat": 28.56409,
+        "lon": 77.3342,
+        "connections": [
+            {
+                "to": "NOIDA_SECTOR_18_BLUE_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "GOLF_COURSE_BLUE_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "GOLF_COURSE_BLUE_LINE": {
+        "name": "Golf Course",
+        "line": "Blue line",
+        "lat": 28.56714,
+        "lon": 77.34598,
+        "connections": [
+            {
+                "to": "BOTANICAL_GARDEN_[CONN:_MAGENTA]_BLUE_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "NOIDA_CITY_CENTER_BLUE_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "NOIDA_CITY_CENTER_BLUE_LINE": {
+        "name": "Noida City Center",
+        "line": "Blue line",
+        "lat": 28.57466,
+        "lon": 77.35608,
+        "connections": [
+            {
+                "to": "GOLF_COURSE_BLUE_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "NOIDA_SECTOR_34_BLUE_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            }
+        ]
+    },
+    "NOIDA_SECTOR_34_BLUE_LINE": {
+        "name": "Noida Sector 34",
+        "line": "Blue line",
+        "lat": 28.4808629,
+        "lon": 77.0848883,
+        "connections": [
+            {
+                "to": "NOIDA_CITY_CENTER_BLUE_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            },
+            {
+                "to": "NOIDA_SECTOR_52_[CONN:_AQUA]_BLUE_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "NOIDA_SECTOR_52_[CONN:_AQUA]_BLUE_LINE": {
+        "name": "Noida Sector 52 [Conn: Aqua]",
+        "line": "Blue line",
+        "lat": 28.4808629,
+        "lon": 77.0848883,
+        "connections": [
+            {
+                "to": "NOIDA_SECTOR_34_BLUE_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "NOIDA_SECTOR_61_BLUE_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "NOIDA_SECTOR_61_BLUE_LINE": {
+        "name": "Noida Sector 61",
+        "line": "Blue line",
+        "lat": 28.4808629,
+        "lon": 77.0848883,
+        "connections": [
+            {
+                "to": "NOIDA_SECTOR_52_[CONN:_AQUA]_BLUE_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "NOIDA_SECTOR_59_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "NOIDA_SECTOR_59_BLUE_LINE": {
+        "name": "Noida Sector 59",
+        "line": "Blue line",
+        "lat": 28.4808629,
+        "lon": 77.0848883,
+        "connections": [
+            {
+                "to": "NOIDA_SECTOR_61_BLUE_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "NOIDA_SECTOR_62_BLUE_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "NOIDA_SECTOR_62_BLUE_LINE": {
+        "name": "Noida Sector 62",
+        "line": "Blue line",
+        "lat": 28.4808629,
+        "lon": 77.0848883,
+        "connections": [
+            {
+                "to": "NOIDA_SECTOR_59_BLUE_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "YAMUNA_BANK_BLUE_LINE_BRANCH": {
+        "name": "Yamuna Bank",
+        "line": "Blue line branch",
+        "lat": 28.62331,
+        "lon": 77.26792,
+        "connections": [
+            {
+                "to": "LAXMI_NAGAR_BLUE_LINE_BRANCH",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "YAMUNA_BANK_BLUE_LINE",
+                "distance_km": 0.0,
+                "time_sec": 300,
+                "type": "transfer"
+            }
+        ]
+    },
+    "LAXMI_NAGAR_BLUE_LINE_BRANCH": {
+        "name": "Laxmi Nagar",
+        "line": "Blue line branch",
+        "lat": 28.63064,
+        "lon": 77.27749,
+        "connections": [
+            {
+                "to": "YAMUNA_BANK_BLUE_LINE_BRANCH",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "NIRMAN_VIHAR_BLUE_LINE_BRANCH",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "NIRMAN_VIHAR_BLUE_LINE_BRANCH": {
+        "name": "Nirman Vihar",
+        "line": "Blue line branch",
+        "lat": 28.63663,
+        "lon": 77.28683,
+        "connections": [
+            {
+                "to": "LAXMI_NAGAR_BLUE_LINE_BRANCH",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "PREET_VIHAR_BLUE_LINE_BRANCH",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "PREET_VIHAR_BLUE_LINE_BRANCH": {
+        "name": "Preet Vihar",
+        "line": "Blue line branch",
+        "lat": 28.64171,
+        "lon": 77.29543,
+        "connections": [
+            {
+                "to": "NIRMAN_VIHAR_BLUE_LINE_BRANCH",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "KARKAR_DUMA_[CONN:_PINK]_BLUE_LINE_BRANCH",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "KARKAR_DUMA_[CONN:_PINK]_BLUE_LINE_BRANCH": {
+        "name": "Karkar Duma [Conn: Pink]",
+        "line": "Blue line branch",
+        "lat": 28.64849,
+        "lon": 77.30558,
+        "connections": [
+            {
+                "to": "PREET_VIHAR_BLUE_LINE_BRANCH",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "ANAND_VIHAR_[CONN:_PINK]_BLUE_LINE_BRANCH",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "ANAND_VIHAR_[CONN:_PINK]_BLUE_LINE_BRANCH": {
+        "name": "Anand Vihar [Conn: Pink]",
+        "line": "Blue line branch",
+        "lat": 28.64695,
+        "lon": 77.31603,
+        "connections": [
+            {
+                "to": "KARKAR_DUMA_[CONN:_PINK]_BLUE_LINE_BRANCH",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "KAUSHAMBI_BLUE_LINE_BRANCH",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            }
+        ]
+    },
+    "KAUSHAMBI_BLUE_LINE_BRANCH": {
+        "name": "Kaushambi",
+        "line": "Blue line branch",
+        "lat": 28.64544,
+        "lon": 77.32432,
+        "connections": [
+            {
+                "to": "ANAND_VIHAR_[CONN:_PINK]_BLUE_LINE_BRANCH",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            },
+            {
+                "to": "VAISHALI_BLUE_LINE_BRANCH",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            }
+        ]
+    },
+    "VAISHALI_BLUE_LINE_BRANCH": {
+        "name": "Vaishali",
+        "line": "Blue line branch",
+        "lat": 28.64997,
+        "lon": 77.33974,
+        "connections": [
+            {
+                "to": "KAUSHAMBI_BLUE_LINE_BRANCH",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            }
+        ]
+    },
+    "ASHOK_PARK_MAIN_GREEN_LINE_BRANCH": {
+        "name": "Ashok Park Main",
+        "line": "Green line branch",
+        "lat": 28.67292,
+        "lon": 77.1442,
+        "connections": [
+            {
+                "to": "SATGURU_RAM_SINGH_MARG_GREEN_LINE_BRANCH",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "ASHOK_PARK_MAIN_GREEN_LINE",
+                "distance_km": 0.0,
+                "time_sec": 300,
+                "type": "transfer"
+            }
+        ]
+    },
+    "SATGURU_RAM_SINGH_MARG_GREEN_LINE_BRANCH": {
+        "name": "Satguru Ram Singh Marg",
+        "line": "Green line branch",
+        "lat": 28.66199,
+        "lon": 77.15748,
+        "connections": [
+            {
+                "to": "ASHOK_PARK_MAIN_GREEN_LINE_BRANCH",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "KIRTI_NAGAR_[CONN:_BLUE]_GREEN_LINE_BRANCH",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "KIRTI_NAGAR_[CONN:_BLUE]_GREEN_LINE_BRANCH": {
+        "name": "Kirti Nagar [Conn: Blue]",
+        "line": "Green line branch",
+        "lat": 28.65575,
+        "lon": 77.15057,
+        "connections": [
+            {
+                "to": "SATGURU_RAM_SINGH_MARG_GREEN_LINE_BRANCH",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "INDERLOK_CONN:RED_GREEN_LINE": {
+        "name": "Inderlok Conn:Red",
+        "line": "Green line",
+        "lat": 28.67319,
+        "lon": 77.16994,
+        "connections": [
+            {
+                "to": "ASHOK_PARK_MAIN_GREEN_LINE",
+                "distance_km": 1.4,
+                "time_sec": 144,
+                "type": "rail"
+            }
+        ]
+    },
+    "ASHOK_PARK_MAIN_GREEN_LINE": {
+        "name": "Ashok Park Main",
+        "line": "Green line",
+        "lat": 28.67153,
+        "lon": 77.15527,
+        "connections": [
+            {
+                "to": "INDERLOK_CONN:RED_GREEN_LINE",
+                "distance_km": 1.4,
+                "time_sec": 144,
+                "type": "rail"
+            },
+            {
+                "to": "PUNJABI_BAGH_GREEN_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            },
+            {
+                "to": "ASHOK_PARK_MAIN_GREEN_LINE_BRANCH",
+                "distance_km": 0.0,
+                "time_sec": 300,
+                "type": "transfer"
+            }
+        ]
+    },
+    "PUNJABI_BAGH_GREEN_LINE": {
+        "name": "Punjabi Bagh",
+        "line": "Green line",
+        "lat": 28.67289,
+        "lon": 77.14614,
+        "connections": [
+            {
+                "to": "ASHOK_PARK_MAIN_GREEN_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            },
+            {
+                "to": "SHIVAJI_PARK_GREEN_LINE",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            }
+        ]
+    },
+    "SHIVAJI_PARK_GREEN_LINE": {
+        "name": "Shivaji Park",
+        "line": "Green line",
+        "lat": 28.6749,
+        "lon": 77.13056,
+        "connections": [
+            {
+                "to": "PUNJABI_BAGH_GREEN_LINE",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            },
+            {
+                "to": "MADIPUR_GREEN_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "MADIPUR_GREEN_LINE": {
+        "name": "Madipur",
+        "line": "Green line",
+        "lat": 28.67734,
+        "lon": 77.11965,
+        "connections": [
+            {
+                "to": "SHIVAJI_PARK_GREEN_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "PASCHIM_VIHAR_(EAST)_GREEN_LINE",
+                "distance_km": 0.7,
+                "time_sec": 72,
+                "type": "rail"
+            }
+        ]
+    },
+    "PASCHIM_VIHAR_(EAST)_GREEN_LINE": {
+        "name": "Paschim Vihar (East)",
+        "line": "Green line",
+        "lat": 28.6773,
+        "lon": 77.11228,
+        "connections": [
+            {
+                "to": "MADIPUR_GREEN_LINE",
+                "distance_km": 0.7,
+                "time_sec": 72,
+                "type": "rail"
+            },
+            {
+                "to": "PASCHIM_VIHAR_(WEST)_GREEN_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "PASCHIM_VIHAR_(WEST)_GREEN_LINE": {
+        "name": "Paschim Vihar (West)",
+        "line": "Green line",
+        "lat": 28.67855,
+        "lon": 77.10227,
+        "connections": [
+            {
+                "to": "PASCHIM_VIHAR_(EAST)_GREEN_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "PEERA_GARHI_GREEN_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            }
+        ]
+    },
+    "PEERA_GARHI_GREEN_LINE": {
+        "name": "Peera Garhi",
+        "line": "Green line",
+        "lat": 28.67959,
+        "lon": 77.09261,
+        "connections": [
+            {
+                "to": "PASCHIM_VIHAR_(WEST)_GREEN_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            },
+            {
+                "to": "UDYOG_NAGAR_GREEN_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "UDYOG_NAGAR_GREEN_LINE": {
+        "name": "Udyog Nagar",
+        "line": "Green line",
+        "lat": 28.6809,
+        "lon": 77.08077,
+        "connections": [
+            {
+                "to": "PEERA_GARHI_GREEN_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "MAHARAJA_SURAJMAL_STADIUM_GREEN_LINE",
+                "distance_km": 0.7,
+                "time_sec": 72,
+                "type": "rail"
+            }
+        ]
+    },
+    "MAHARAJA_SURAJMAL_STADIUM_GREEN_LINE": {
+        "name": "Maharaja Surajmal Stadium",
+        "line": "Green line",
+        "lat": 28.6818,
+        "lon": 77.07385,
+        "connections": [
+            {
+                "to": "UDYOG_NAGAR_GREEN_LINE",
+                "distance_km": 0.7,
+                "time_sec": 72,
+                "type": "rail"
+            },
+            {
+                "to": "NANGLOI_GREEN_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            }
+        ]
+    },
+    "NANGLOI_GREEN_LINE": {
+        "name": "Nangloi",
+        "line": "Green line",
+        "lat": 28.68231,
+        "lon": 77.06471,
+        "connections": [
+            {
+                "to": "MAHARAJA_SURAJMAL_STADIUM_GREEN_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            },
+            {
+                "to": "NANGLOI_RAILWAY_STATION_GREEN_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            }
+        ]
+    },
+    "NANGLOI_RAILWAY_STATION_GREEN_LINE": {
+        "name": "Nangloi Railway Station",
+        "line": "Green line",
+        "lat": 28.68208,
+        "lon": 77.05596,
+        "connections": [
+            {
+                "to": "NANGLOI_GREEN_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            },
+            {
+                "to": "RAJDHANI_PARK_GREEN_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "RAJDHANI_PARK_GREEN_LINE": {
+        "name": "Rajdhani Park",
+        "line": "Green line",
+        "lat": 28.68221,
+        "lon": 77.04381,
+        "connections": [
+            {
+                "to": "NANGLOI_RAILWAY_STATION_GREEN_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "MUNDKA_GREEN_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "MUNDKA_GREEN_LINE": {
+        "name": "Mundka",
+        "line": "Green line",
+        "lat": 28.68321,
+        "lon": 77.03133,
+        "connections": [
+            {
+                "to": "RAJDHANI_PARK_GREEN_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "MUNDKA_INDUSTRIAL_AREA_(MIA)_GREEN_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "MUNDKA_INDUSTRIAL_AREA_(MIA)_GREEN_LINE": {
+        "name": "Mundka Industrial Area (MIA)",
+        "line": "Green line",
+        "lat": 28.6834491,
+        "lon": 77.0171333,
+        "connections": [
+            {
+                "to": "MUNDKA_GREEN_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "GHEVRA_METRO_STATION_GREEN_LINE",
+                "distance_km": 2.1,
+                "time_sec": 216,
+                "type": "rail"
+            }
+        ]
+    },
+    "GHEVRA_METRO_STATION_GREEN_LINE": {
+        "name": "Ghevra Metro station",
+        "line": "Green line",
+        "lat": 28.6852384,
+        "lon": 76.9961591,
+        "connections": [
+            {
+                "to": "MUNDKA_INDUSTRIAL_AREA_(MIA)_GREEN_LINE",
+                "distance_km": 2.1,
+                "time_sec": 216,
+                "type": "rail"
+            },
+            {
+                "to": "TIKRI_KALAN_GREEN_LINE",
+                "distance_km": 1.8,
+                "time_sec": 185,
+                "type": "rail"
+            }
+        ]
+    },
+    "TIKRI_KALAN_GREEN_LINE": {
+        "name": "Tikri Kalan",
+        "line": "Green line",
+        "lat": 28.6868661,
+        "lon": 76.9772069,
+        "connections": [
+            {
+                "to": "GHEVRA_METRO_STATION_GREEN_LINE",
+                "distance_km": 1.8,
+                "time_sec": 185,
+                "type": "rail"
+            },
+            {
+                "to": "TIKRI_BORDER_GREEN_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "TIKRI_BORDER_GREEN_LINE": {
+        "name": "Tikri Border",
+        "line": "Green line",
+        "lat": 28.6880254,
+        "lon": 76.9640828,
+        "connections": [
+            {
+                "to": "TIKRI_KALAN_GREEN_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "PANDIT_SHREE_RAM_SHARMA_GREEN_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "PANDIT_SHREE_RAM_SHARMA_GREEN_LINE": {
+        "name": "Pandit Shree Ram Sharma",
+        "line": "Green line",
+        "lat": 28.689281,
+        "lon": 76.9511988,
+        "connections": [
+            {
+                "to": "TIKRI_BORDER_GREEN_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "BAHDURGARH_CITY_GREEN_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            }
+        ]
+    },
+    "BAHDURGARH_CITY_GREEN_LINE": {
+        "name": "Bahdurgarh City",
+        "line": "Green line",
+        "lat": 28.6907847,
+        "lon": 76.9354851,
+        "connections": [
+            {
+                "to": "PANDIT_SHREE_RAM_SHARMA_GREEN_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            },
+            {
+                "to": "BRIGADIER_HOSHIAR_SINGH_GREEN_LINE",
+                "distance_km": 1.8,
+                "time_sec": 185,
+                "type": "rail"
+            }
+        ]
+    },
+    "BRIGADIER_HOSHIAR_SINGH_GREEN_LINE": {
+        "name": "Brigadier Hoshiar Singh",
+        "line": "Green line",
+        "lat": 28.6974603,
+        "lon": 76.9192027,
+        "connections": [
+            {
+                "to": "BAHDURGARH_CITY_GREEN_LINE",
+                "distance_km": 1.8,
+                "time_sec": 185,
+                "type": "rail"
+            }
+        ]
+    },
+    "SECTOR_55-66_RAPID_METRO": {
+        "name": "Sector 55-66",
+        "line": "Rapid Metro",
+        "lat": 28.4936,
+        "lon": 77.0935,
+        "connections": [
+            {
+                "to": "SECTOR_54_CHOWK_RAPID_METRO",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "SECTOR_54_CHOWK_RAPID_METRO": {
+        "name": "Sector 54 Chowk",
+        "line": "Rapid Metro",
+        "lat": 28.4936,
+        "lon": 77.0935,
+        "connections": [
+            {
+                "to": "SECTOR_55-66_RAPID_METRO",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "SECTOR_53-54_RAPID_METRO",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            }
+        ]
+    },
+    "SECTOR_53-54_RAPID_METRO": {
+        "name": "Sector 53-54",
+        "line": "Rapid Metro",
+        "lat": 28.4936,
+        "lon": 77.0935,
+        "connections": [
+            {
+                "to": "SECTOR_54_CHOWK_RAPID_METRO",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            },
+            {
+                "to": "SECTOR_42-43_RAPID_METRO",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "SECTOR_42-43_RAPID_METRO": {
+        "name": "Sector 42-43",
+        "line": "Rapid Metro",
+        "lat": 28.4936,
+        "lon": 77.0935,
+        "connections": [
+            {
+                "to": "SECTOR_53-54_RAPID_METRO",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "DLF_PHASE_1_RAPID_METRO",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            }
+        ]
+    },
+    "DLF_PHASE_1_RAPID_METRO": {
+        "name": "DLF Phase 1",
+        "line": "Rapid Metro",
+        "lat": 28.4936,
+        "lon": 77.0935,
+        "connections": [
+            {
+                "to": "SECTOR_42-43_RAPID_METRO",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            },
+            {
+                "to": "SIKANDARPUR_[CONN:_YELLOW]_RAPID_METRO",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "SIKANDARPUR_[CONN:_YELLOW]_RAPID_METRO": {
+        "name": "Sikandarpur [Conn: Yellow]",
+        "line": "Rapid Metro",
+        "lat": 28.4936,
+        "lon": 77.0935,
+        "connections": [
+            {
+                "to": "DLF_PHASE_1_RAPID_METRO",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "DLF_PHASE_2_RAPID_METRO",
+                "distance_km": 0.7,
+                "time_sec": 72,
+                "type": "rail"
+            }
+        ]
+    },
+    "DLF_PHASE_2_RAPID_METRO": {
+        "name": "DLF Phase 2",
+        "line": "Rapid Metro",
+        "lat": 28.4936,
+        "lon": 77.0935,
+        "connections": [
+            {
+                "to": "SIKANDARPUR_[CONN:_YELLOW]_RAPID_METRO",
+                "distance_km": 0.7,
+                "time_sec": 72,
+                "type": "rail"
+            },
+            {
+                "to": "BELVEDERE_TOWERS_RAPID_METRO",
+                "distance_km": 0.7,
+                "time_sec": 72,
+                "type": "rail"
+            }
+        ]
+    },
+    "BELVEDERE_TOWERS_RAPID_METRO": {
+        "name": "Belvedere Towers",
+        "line": "Rapid Metro",
+        "lat": 28.4936,
+        "lon": 77.0935,
+        "connections": [
+            {
+                "to": "DLF_PHASE_2_RAPID_METRO",
+                "distance_km": 0.7,
+                "time_sec": 72,
+                "type": "rail"
+            },
+            {
+                "to": "CYBER_CITY_RAPID_METRO",
+                "distance_km": 0.6,
+                "time_sec": 61,
+                "type": "rail"
+            }
+        ]
+    },
+    "CYBER_CITY_RAPID_METRO": {
+        "name": "Cyber City",
+        "line": "Rapid Metro",
+        "lat": 28.4936,
+        "lon": 77.0935,
+        "connections": [
+            {
+                "to": "BELVEDERE_TOWERS_RAPID_METRO",
+                "distance_km": 0.6,
+                "time_sec": 61,
+                "type": "rail"
+            },
+            {
+                "to": "MOULSARI_AVENUE_RAPID_METRO",
+                "distance_km": 0.6,
+                "time_sec": 61,
+                "type": "rail"
+            }
+        ]
+    },
+    "MOULSARI_AVENUE_RAPID_METRO": {
+        "name": "Moulsari Avenue",
+        "line": "Rapid Metro",
+        "lat": 28.4936,
+        "lon": 77.0935,
+        "connections": [
+            {
+                "to": "CYBER_CITY_RAPID_METRO",
+                "distance_km": 0.6,
+                "time_sec": 61,
+                "type": "rail"
+            },
+            {
+                "to": "DLF_PHASE_3_RAPID_METRO",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            }
+        ]
+    },
+    "DLF_PHASE_3_RAPID_METRO": {
+        "name": "DLF Phase 3",
+        "line": "Rapid Metro",
+        "lat": 28.4936,
+        "lon": 77.0935,
+        "connections": [
+            {
+                "to": "MOULSARI_AVENUE_RAPID_METRO",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            }
+        ]
+    },
+    "KASHMERE_GATE_[CONN:_YELLOW]_VOILET_LINE": {
+        "name": "Kashmere Gate [Conn: Yellow]",
+        "line": "Voilet line",
+        "lat": 28.6675,
+        "lon": 77.22817,
+        "connections": [
+            {
+                "to": "LAL_QUILA_VOILET_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            }
+        ]
+    },
+    "LAL_QUILA_VOILET_LINE": {
+        "name": "Lal Quila",
+        "line": "Voilet line",
+        "lat": 27.92086195,
+        "lon": 77.52850191,
+        "connections": [
+            {
+                "to": "KASHMERE_GATE_[CONN:_YELLOW]_VOILET_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            },
+            {
+                "to": "JAMA_MASJID_VOILET_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            }
+        ]
+    },
+    "JAMA_MASJID_VOILET_LINE": {
+        "name": "Jama Masjid",
+        "line": "Voilet line",
+        "lat": 28.65001015,
+        "lon": 77.23767617,
+        "connections": [
+            {
+                "to": "LAL_QUILA_VOILET_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            },
+            {
+                "to": "DELHI_GATE_VOILET_LINE",
+                "distance_km": 1.4,
+                "time_sec": 144,
+                "type": "rail"
+            }
+        ]
+    },
+    "DELHI_GATE_VOILET_LINE": {
+        "name": "Delhi Gate",
+        "line": "Voilet line",
+        "lat": 28.6392036,
+        "lon": 77.2407823,
+        "connections": [
+            {
+                "to": "JAMA_MASJID_VOILET_LINE",
+                "distance_km": 1.4,
+                "time_sec": 144,
+                "type": "rail"
+            },
+            {
+                "to": "ITO_VOILET_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "ITO_VOILET_LINE": {
+        "name": "ITO",
+        "line": "Voilet line",
+        "lat": 28.6305091,
+        "lon": 77.2414363,
+        "connections": [
+            {
+                "to": "DELHI_GATE_VOILET_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "MANDI_HOUSE_[CONN:_BLUE]_VOILET_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            }
+        ]
+    },
+    "MANDI_HOUSE_[CONN:_BLUE]_VOILET_LINE": {
+        "name": "Mandi House [Conn: Blue]",
+        "line": "Voilet line",
+        "lat": 28.6255556,
+        "lon": 77.234195,
+        "connections": [
+            {
+                "to": "ITO_VOILET_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            },
+            {
+                "to": "JANPATH_VOILET_LINE",
+                "distance_km": 1.4,
+                "time_sec": 144,
+                "type": "rail"
+            }
+        ]
+    },
+    "JANPATH_VOILET_LINE": {
+        "name": "Janpath",
+        "line": "Voilet line",
+        "lat": 28.6088598,
+        "lon": 77.2181649,
+        "connections": [
+            {
+                "to": "MANDI_HOUSE_[CONN:_BLUE]_VOILET_LINE",
+                "distance_km": 1.4,
+                "time_sec": 144,
+                "type": "rail"
+            },
+            {
+                "to": "CENTRAL_SECRETARIAT_[CONN:_YELLOW]_VOILET_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "CENTRAL_SECRETARIAT_[CONN:_YELLOW]_VOILET_LINE": {
+        "name": "Central Secretariat [Conn: Yellow]",
+        "line": "Voilet line",
+        "lat": 28.61474,
+        "lon": 77.21191,
+        "connections": [
+            {
+                "to": "JANPATH_VOILET_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "KHAN_MARKET_VOILET_LINE",
+                "distance_km": 2.1,
+                "time_sec": 216,
+                "type": "rail"
+            }
+        ]
+    },
+    "KHAN_MARKET_VOILET_LINE": {
+        "name": "Khan Market",
+        "line": "Voilet line",
+        "lat": 28.60276,
+        "lon": 77.22829,
+        "connections": [
+            {
+                "to": "CENTRAL_SECRETARIAT_[CONN:_YELLOW]_VOILET_LINE",
+                "distance_km": 2.1,
+                "time_sec": 216,
+                "type": "rail"
+            },
+            {
+                "to": "JAWAHARLAL_NEHRU_STADIUM_VOILET_LINE",
+                "distance_km": 1.4,
+                "time_sec": 144,
+                "type": "rail"
+            }
+        ]
+    },
+    "JAWAHARLAL_NEHRU_STADIUM_VOILET_LINE": {
+        "name": "Jawaharlal Nehru Stadium",
+        "line": "Voilet line",
+        "lat": 28.5904,
+        "lon": 77.23326,
+        "connections": [
+            {
+                "to": "KHAN_MARKET_VOILET_LINE",
+                "distance_km": 1.4,
+                "time_sec": 144,
+                "type": "rail"
+            },
+            {
+                "to": "JANGPURA_VOILET_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            }
+        ]
+    },
+    "JANGPURA_VOILET_LINE": {
+        "name": "Jangpura",
+        "line": "Voilet line",
+        "lat": 28.5843,
+        "lon": 77.23766,
+        "connections": [
+            {
+                "to": "JAWAHARLAL_NEHRU_STADIUM_VOILET_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            },
+            {
+                "to": "LAJPAT_NAGAR_[CONN:_PINK]_VOILET_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            }
+        ]
+    },
+    "LAJPAT_NAGAR_[CONN:_PINK]_VOILET_LINE": {
+        "name": "Lajpat Nagar [Conn: Pink]",
+        "line": "Voilet line",
+        "lat": 28.57079,
+        "lon": 77.23653,
+        "connections": [
+            {
+                "to": "JANGPURA_VOILET_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            },
+            {
+                "to": "MOOLCHAND_VOILET_LINE",
+                "distance_km": 0.7,
+                "time_sec": 72,
+                "type": "rail"
+            }
+        ]
+    },
+    "MOOLCHAND_VOILET_LINE": {
+        "name": "Moolchand",
+        "line": "Voilet line",
+        "lat": 28.56417,
+        "lon": 77.23423,
+        "connections": [
+            {
+                "to": "LAJPAT_NAGAR_[CONN:_PINK]_VOILET_LINE",
+                "distance_km": 0.7,
+                "time_sec": 72,
+                "type": "rail"
+            },
+            {
+                "to": "KAILASH_COLONY_VOILET_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "KAILASH_COLONY_VOILET_LINE": {
+        "name": "Kailash Colony",
+        "line": "Voilet line",
+        "lat": 28.55527,
+        "lon": 77.24205,
+        "connections": [
+            {
+                "to": "MOOLCHAND_VOILET_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "NEHRU_PLACE_VOILET_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "NEHRU_PLACE_VOILET_LINE": {
+        "name": "Nehru Place",
+        "line": "Voilet line",
+        "lat": 28.55148,
+        "lon": 77.25154,
+        "connections": [
+            {
+                "to": "KAILASH_COLONY_VOILET_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "KALKAJI_MANDIR_[CONN:_MAGENTA]_VOILET_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            }
+        ]
+    },
+    "KALKAJI_MANDIR_[CONN:_MAGENTA]_VOILET_LINE": {
+        "name": "Kalkaji Mandir [Conn: Magenta]",
+        "line": "Voilet line",
+        "lat": 28.55007,
+        "lon": 77.25835,
+        "connections": [
+            {
+                "to": "NEHRU_PLACE_VOILET_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            },
+            {
+                "to": "GOVIND_PURI_VOILET_LINE",
+                "distance_km": 0.7,
+                "time_sec": 72,
+                "type": "rail"
+            }
+        ]
+    },
+    "GOVIND_PURI_VOILET_LINE": {
+        "name": "Govind Puri",
+        "line": "Voilet line",
+        "lat": 28.54451,
+        "lon": 77.26401,
+        "connections": [
+            {
+                "to": "KALKAJI_MANDIR_[CONN:_MAGENTA]_VOILET_LINE",
+                "distance_km": 0.7,
+                "time_sec": 72,
+                "type": "rail"
+            },
+            {
+                "to": "OKHLA_VOILET_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "OKHLA_VOILET_LINE": {
+        "name": "Okhla",
+        "line": "Voilet line",
+        "lat": 28.54292,
+        "lon": 77.27504,
+        "connections": [
+            {
+                "to": "GOVIND_PURI_VOILET_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "JASOLA_VOILET_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            }
+        ]
+    },
+    "JASOLA_VOILET_LINE": {
+        "name": "Jasola",
+        "line": "Voilet line",
+        "lat": 28.53824,
+        "lon": 77.28319,
+        "connections": [
+            {
+                "to": "OKHLA_VOILET_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            },
+            {
+                "to": "SARITA_VIHAR_VOILET_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "SARITA_VIHAR_VOILET_LINE": {
+        "name": "Sarita Vihar",
+        "line": "Voilet line",
+        "lat": 28.52878,
+        "lon": 77.28826,
+        "connections": [
+            {
+                "to": "JASOLA_VOILET_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "MOHAN_ESTATE_VOILET_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "MOHAN_ESTATE_VOILET_LINE": {
+        "name": "Mohan Estate",
+        "line": "Voilet line",
+        "lat": 28.51938,
+        "lon": 77.29388,
+        "connections": [
+            {
+                "to": "SARITA_VIHAR_VOILET_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "TUGHLAKABAD_VOILET_LINE",
+                "distance_km": 1.9,
+                "time_sec": 195,
+                "type": "rail"
+            }
+        ]
+    },
+    "TUGHLAKABAD_VOILET_LINE": {
+        "name": "Tughlakabad",
+        "line": "Voilet line",
+        "lat": 28.50254,
+        "lon": 77.2993,
+        "connections": [
+            {
+                "to": "MOHAN_ESTATE_VOILET_LINE",
+                "distance_km": 1.9,
+                "time_sec": 195,
+                "type": "rail"
+            },
+            {
+                "to": "BADARPUR_BORDER_VOILET_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "BADARPUR_BORDER_VOILET_LINE": {
+        "name": "Badarpur Border",
+        "line": "Voilet line",
+        "lat": 28.49334,
+        "lon": 77.30307,
+        "connections": [
+            {
+                "to": "TUGHLAKABAD_VOILET_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "SARAI_VOILET_LINE",
+                "distance_km": 2.5,
+                "time_sec": 257,
+                "type": "rail"
+            }
+        ]
+    },
+    "SARAI_VOILET_LINE": {
+        "name": "Sarai",
+        "line": "Voilet line",
+        "lat": 28.6517178,
+        "lon": 77.2219388,
+        "connections": [
+            {
+                "to": "BADARPUR_BORDER_VOILET_LINE",
+                "distance_km": 2.5,
+                "time_sec": 257,
+                "type": "rail"
+            },
+            {
+                "to": "N.H.P.C._CHOWK_VOILET_LINE",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            }
+        ]
+    },
+    "N.H.P.C._CHOWK_VOILET_LINE": {
+        "name": "N.H.P.C. Chowk",
+        "line": "Voilet line",
+        "lat": 28.45769,
+        "lon": 77.2219388,
+        "connections": [
+            {
+                "to": "SARAI_VOILET_LINE",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            },
+            {
+                "to": "MEWALA_MAHARAJPUR_VOILET_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            }
+        ]
+    },
+    "MEWALA_MAHARAJPUR_VOILET_LINE": {
+        "name": "Mewala Maharajpur",
+        "line": "Voilet line",
+        "lat": 28.4418747,
+        "lon": 77.3023001,
+        "connections": [
+            {
+                "to": "N.H.P.C._CHOWK_VOILET_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            },
+            {
+                "to": "SECTOR_28_FARIDABAD_VOILET_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "SECTOR_28_FARIDABAD_VOILET_LINE": {
+        "name": "Sector 28 Faridabad",
+        "line": "Voilet line",
+        "lat": 28.54525655,
+        "lon": 77.03257609,
+        "connections": [
+            {
+                "to": "MEWALA_MAHARAJPUR_VOILET_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "BADKAL_MOR_VOILET_LINE",
+                "distance_km": 1.7,
+                "time_sec": 174,
+                "type": "rail"
+            }
+        ]
+    },
+    "BADKAL_MOR_VOILET_LINE": {
+        "name": "Badkal Mor",
+        "line": "Voilet line",
+        "lat": 28.422814,
+        "lon": 77.310278,
+        "connections": [
+            {
+                "to": "SECTOR_28_FARIDABAD_VOILET_LINE",
+                "distance_km": 1.7,
+                "time_sec": 174,
+                "type": "rail"
+            },
+            {
+                "to": "OLD_FARIDABAD_VOILET_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "OLD_FARIDABAD_VOILET_LINE": {
+        "name": "Old Faridabad",
+        "line": "Voilet line",
+        "lat": 28.4808629,
+        "lon": 77.0848883,
+        "connections": [
+            {
+                "to": "BADKAL_MOR_VOILET_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "NEELAM_CHOWK_AJRONDA_VOILET_LINE",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            }
+        ]
+    },
+    "NEELAM_CHOWK_AJRONDA_VOILET_LINE": {
+        "name": "Neelam Chowk Ajronda",
+        "line": "Voilet line",
+        "lat": 28.3974824,
+        "lon": 77.3123599,
+        "connections": [
+            {
+                "to": "OLD_FARIDABAD_VOILET_LINE",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            },
+            {
+                "to": "BATA_CHOWK_VOILET_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "BATA_CHOWK_VOILET_LINE": {
+        "name": "Bata Chowk",
+        "line": "Voilet line",
+        "lat": 28.3858361,
+        "lon": 77.313462,
+        "connections": [
+            {
+                "to": "NEELAM_CHOWK_AJRONDA_VOILET_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "ESCORTS_MUJESAR_VOILET_LINE",
+                "distance_km": 1.8,
+                "time_sec": 185,
+                "type": "rail"
+            }
+        ]
+    },
+    "ESCORTS_MUJESAR_VOILET_LINE": {
+        "name": "Escorts Mujesar",
+        "line": "Voilet line",
+        "lat": 28.3702344,
+        "lon": 77.3149203,
+        "connections": [
+            {
+                "to": "BATA_CHOWK_VOILET_LINE",
+                "distance_km": 1.8,
+                "time_sec": 185,
+                "type": "rail"
+            },
+            {
+                "to": "SANT_SURDAS_-_SIHI_VOILET_LINE",
+                "distance_km": 1.7,
+                "time_sec": 174,
+                "type": "rail"
+            }
+        ]
+    },
+    "SANT_SURDAS_-_SIHI_VOILET_LINE": {
+        "name": "Sant Surdas - Sihi",
+        "line": "Voilet line",
+        "lat": 28.3546513,
+        "lon": 77.3162264,
+        "connections": [
+            {
+                "to": "ESCORTS_MUJESAR_VOILET_LINE",
+                "distance_km": 1.7,
+                "time_sec": 174,
+                "type": "rail"
+            },
+            {
+                "to": "RAJA_NAHAR_SINGH_VOILET_LINE",
+                "distance_km": 1.7,
+                "time_sec": 174,
+                "type": "rail"
+            }
+        ]
+    },
+    "RAJA_NAHAR_SINGH_VOILET_LINE": {
+        "name": "Raja Nahar Singh",
+        "line": "Voilet line",
+        "lat": 28.3400192,
+        "lon": 77.3164281,
+        "connections": [
+            {
+                "to": "SANT_SURDAS_-_SIHI_VOILET_LINE",
+                "distance_km": 1.7,
+                "time_sec": 174,
+                "type": "rail"
+            }
+        ]
+    },
+    "JANAK_PURI_WEST_[CONN:_BLUE]_MAGENTA_LINE": {
+        "name": "Janak Puri West [Conn: Blue]",
+        "line": "Magenta line",
+        "lat": 28.6289502,
+        "lon": 77.0779235,
+        "connections": [
+            {
+                "to": "DABRI_MOR_-_JANAKPURI_SOUTH_MAGENTA_LINE",
+                "distance_km": 2.0,
+                "time_sec": 205,
+                "type": "rail"
+            }
+        ]
+    },
+    "DABRI_MOR_-_JANAKPURI_SOUTH_MAGENTA_LINE": {
+        "name": "Dabri Mor - Janakpuri South",
+        "line": "Magenta line",
+        "lat": 28.6157555,
+        "lon": 77.085178,
+        "connections": [
+            {
+                "to": "JANAK_PURI_WEST_[CONN:_BLUE]_MAGENTA_LINE",
+                "distance_km": 2.0,
+                "time_sec": 205,
+                "type": "rail"
+            },
+            {
+                "to": "DASHRATH_PURI_MAGENTA_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "DASHRATH_PURI_MAGENTA_LINE": {
+        "name": "Dashrath Puri",
+        "line": "Magenta line",
+        "lat": 28.6018751,
+        "lon": 77.0823561,
+        "connections": [
+            {
+                "to": "DABRI_MOR_-_JANAKPURI_SOUTH_MAGENTA_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "PALAM_MAGENTA_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            }
+        ]
+    },
+    "PALAM_MAGENTA_LINE": {
+        "name": "Palam",
+        "line": "Magenta line",
+        "lat": 28.5918933,
+        "lon": 77.0828242,
+        "connections": [
+            {
+                "to": "DASHRATH_PURI_MAGENTA_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            },
+            {
+                "to": "SADAR_BAZAAR_CANTONMENT_MAGENTA_LINE",
+                "distance_km": 2.6,
+                "time_sec": 267,
+                "type": "rail"
+            }
+        ]
+    },
+    "SADAR_BAZAAR_CANTONMENT_MAGENTA_LINE": {
+        "name": "Sadar Bazaar Cantonment",
+        "line": "Magenta line",
+        "lat": 28.5771509,
+        "lon": 77.1111533,
+        "connections": [
+            {
+                "to": "PALAM_MAGENTA_LINE",
+                "distance_km": 2.6,
+                "time_sec": 267,
+                "type": "rail"
+            },
+            {
+                "to": "TERMINAL_1_IGI_AIRPORT_MAGENTA_LINE",
+                "distance_km": 1.7,
+                "time_sec": 174,
+                "type": "rail"
+            }
+        ]
+    },
+    "TERMINAL_1_IGI_AIRPORT_MAGENTA_LINE": {
+        "name": "Terminal 1 IGI Airport",
+        "line": "Magenta line",
+        "lat": 28.5771509,
+        "lon": 77.1111533,
+        "connections": [
+            {
+                "to": "SADAR_BAZAAR_CANTONMENT_MAGENTA_LINE",
+                "distance_km": 1.7,
+                "time_sec": 174,
+                "type": "rail"
+            },
+            {
+                "to": "SHANKAR_VIHAR_MAGENTA_LINE",
+                "distance_km": 1.8,
+                "time_sec": 185,
+                "type": "rail"
+            }
+        ]
+    },
+    "SHANKAR_VIHAR_MAGENTA_LINE": {
+        "name": "Shankar Vihar",
+        "line": "Magenta line",
+        "lat": 28.55743865,
+        "lon": 77.13966549,
+        "connections": [
+            {
+                "to": "TERMINAL_1_IGI_AIRPORT_MAGENTA_LINE",
+                "distance_km": 1.8,
+                "time_sec": 185,
+                "type": "rail"
+            },
+            {
+                "to": "VASANT_VIHAR_MAGENTA_LINE",
+                "distance_km": 2.1,
+                "time_sec": 216,
+                "type": "rail"
+            }
+        ]
+    },
+    "VASANT_VIHAR_MAGENTA_LINE": {
+        "name": "Vasant Vihar",
+        "line": "Magenta line",
+        "lat": 28.56069055,
+        "lon": 77.16079073,
+        "connections": [
+            {
+                "to": "SHANKAR_VIHAR_MAGENTA_LINE",
+                "distance_km": 2.1,
+                "time_sec": 216,
+                "type": "rail"
+            },
+            {
+                "to": "MUNIRKA_MAGENTA_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "MUNIRKA_MAGENTA_LINE": {
+        "name": "Munirka",
+        "line": "Magenta line",
+        "lat": 28.554886,
+        "lon": 77.1710841,
+        "connections": [
+            {
+                "to": "VASANT_VIHAR_MAGENTA_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "RK_PURAM_MAGENTA_LINE",
+                "distance_km": 1.4,
+                "time_sec": 144,
+                "type": "rail"
+            }
+        ]
+    },
+    "RK_PURAM_MAGENTA_LINE": {
+        "name": "RK Puram",
+        "line": "Magenta line",
+        "lat": 28.5514261,
+        "lon": 77.1847012,
+        "connections": [
+            {
+                "to": "MUNIRKA_MAGENTA_LINE",
+                "distance_km": 1.4,
+                "time_sec": 144,
+                "type": "rail"
+            },
+            {
+                "to": "IIT_DELHI_MAGENTA_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            }
+        ]
+    },
+    "IIT_DELHI_MAGENTA_LINE": {
+        "name": "IIT Delhi",
+        "line": "Magenta line",
+        "lat": 28.544788,
+        "lon": 77.18987,
+        "connections": [
+            {
+                "to": "RK_PURAM_MAGENTA_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            },
+            {
+                "to": "HAUZ_KHAS_[CONN:_YELLOW]_MAGENTA_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "HAUZ_KHAS_[CONN:_YELLOW]_MAGENTA_LINE": {
+        "name": "Hauz Khas [Conn: Yellow]",
+        "line": "Magenta line",
+        "lat": 28.5442564,
+        "lon": 77.2067072,
+        "connections": [
+            {
+                "to": "IIT_DELHI_MAGENTA_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "PANCHSHEEL_PARK_MAGENTA_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            }
+        ]
+    },
+    "PANCHSHEEL_PARK_MAGENTA_LINE": {
+        "name": "Panchsheel Park",
+        "line": "Magenta line",
+        "lat": 28.5433525,
+        "lon": 77.2140757,
+        "connections": [
+            {
+                "to": "HAUZ_KHAS_[CONN:_YELLOW]_MAGENTA_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            },
+            {
+                "to": "CHIRAG_DELHI_MAGENTA_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            }
+        ]
+    },
+    "CHIRAG_DELHI_MAGENTA_LINE": {
+        "name": "Chirag Delhi",
+        "line": "Magenta line",
+        "lat": 28.5381411,
+        "lon": 77.2280694,
+        "connections": [
+            {
+                "to": "PANCHSHEEL_PARK_MAGENTA_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            },
+            {
+                "to": "GREATER_KAILASH_MAGENTA_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            }
+        ]
+    },
+    "GREATER_KAILASH_MAGENTA_LINE": {
+        "name": "Greater Kailash",
+        "line": "Magenta line",
+        "lat": 28.5418777,
+        "lon": 77.2384553,
+        "connections": [
+            {
+                "to": "CHIRAG_DELHI_MAGENTA_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            },
+            {
+                "to": "NEHRU_ENCLAVE_MAGENTA_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "NEHRU_ENCLAVE_MAGENTA_LINE": {
+        "name": "Nehru Enclave",
+        "line": "Magenta line",
+        "lat": 28.5460584,
+        "lon": 77.2515057,
+        "connections": [
+            {
+                "to": "GREATER_KAILASH_MAGENTA_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "KALKAJI_MANDIR_[CONN:_VIOLET]_MAGENTA_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            }
+        ]
+    },
+    "KALKAJI_MANDIR_[CONN:_VIOLET]_MAGENTA_LINE": {
+        "name": "Kalkaji Mandir [Conn: Violet]",
+        "line": "Magenta line",
+        "lat": 28.5497752,
+        "lon": 77.2606671,
+        "connections": [
+            {
+                "to": "NEHRU_ENCLAVE_MAGENTA_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            },
+            {
+                "to": "OKHLA_NSIC_MAGENTA_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            }
+        ]
+    },
+    "OKHLA_NSIC_MAGENTA_LINE": {
+        "name": "Okhla NSIC",
+        "line": "Magenta line",
+        "lat": 28.5544828,
+        "lon": 77.2648487,
+        "connections": [
+            {
+                "to": "KALKAJI_MANDIR_[CONN:_VIOLET]_MAGENTA_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            },
+            {
+                "to": "SUKHDEV_VIHAR_MAGENTA_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "SUKHDEV_VIHAR_MAGENTA_LINE": {
+        "name": "Sukhdev Vihar",
+        "line": "Magenta line",
+        "lat": 28.5597477,
+        "lon": 77.2749004,
+        "connections": [
+            {
+                "to": "OKHLA_NSIC_MAGENTA_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "JAMIA_MILLIA_ISLAMIA_MAGENTA_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "JAMIA_MILLIA_ISLAMIA_MAGENTA_LINE": {
+        "name": "JAMIA MILLIA ISLAMIA",
+        "line": "Magenta line",
+        "lat": 28.55849025,
+        "lon": 77.28116474,
+        "connections": [
+            {
+                "to": "SUKHDEV_VIHAR_MAGENTA_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "OKHLA_VIHAR_MAGENTA_LINE",
+                "distance_km": 0.5,
+                "time_sec": 51,
+                "type": "rail"
+            }
+        ]
+    },
+    "OKHLA_VIHAR_MAGENTA_LINE": {
+        "name": "Okhla Vihar",
+        "line": "Magenta line",
+        "lat": 28.5613002,
+        "lon": 77.2919304,
+        "connections": [
+            {
+                "to": "JAMIA_MILLIA_ISLAMIA_MAGENTA_LINE",
+                "distance_km": 0.5,
+                "time_sec": 51,
+                "type": "rail"
+            },
+            {
+                "to": "JASOLA_VIHAR_SHAHEEN_BAGH_MAGENTA_LINE",
+                "distance_km": 1.8,
+                "time_sec": 185,
+                "type": "rail"
+            }
+        ]
+    },
+    "JASOLA_VIHAR_SHAHEEN_BAGH_MAGENTA_LINE": {
+        "name": "Jasola Vihar Shaheen Bagh",
+        "line": "Magenta line",
+        "lat": 28.5458279,
+        "lon": 77.2966578,
+        "connections": [
+            {
+                "to": "OKHLA_VIHAR_MAGENTA_LINE",
+                "distance_km": 1.8,
+                "time_sec": 185,
+                "type": "rail"
+            },
+            {
+                "to": "KALINDI_KUNJ_MAGENTA_LINE",
+                "distance_km": 1.4,
+                "time_sec": 144,
+                "type": "rail"
+            }
+        ]
+    },
+    "KALINDI_KUNJ_MAGENTA_LINE": {
+        "name": "Kalindi Kunj",
+        "line": "Magenta line",
+        "lat": 28.5452187,
+        "lon": 77.3059891,
+        "connections": [
+            {
+                "to": "JASOLA_VIHAR_SHAHEEN_BAGH_MAGENTA_LINE",
+                "distance_km": 1.4,
+                "time_sec": 144,
+                "type": "rail"
+            },
+            {
+                "to": "OKHLA_BIRD_SANCTUARY_MAGENTA_LINE",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            }
+        ]
+    },
+    "OKHLA_BIRD_SANCTUARY_MAGENTA_LINE": {
+        "name": "Okhla Bird Sanctuary",
+        "line": "Magenta line",
+        "lat": 28.5529418,
+        "lon": 77.321595,
+        "connections": [
+            {
+                "to": "KALINDI_KUNJ_MAGENTA_LINE",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            },
+            {
+                "to": "BOTANICAL_GARDEN_[CONN:_BLUE]_MAGENTA_LINE",
+                "distance_km": 1.7,
+                "time_sec": 174,
+                "type": "rail"
+            }
+        ]
+    },
+    "BOTANICAL_GARDEN_[CONN:_BLUE]_MAGENTA_LINE": {
+        "name": "Botanical Garden [Conn: Blue]",
+        "line": "Magenta line",
+        "lat": 28.5638964,
+        "lon": 77.334332,
+        "connections": [
+            {
+                "to": "OKHLA_BIRD_SANCTUARY_MAGENTA_LINE",
+                "distance_km": 1.7,
+                "time_sec": 174,
+                "type": "rail"
+            }
+        ]
+    },
+    "MAJLIS_PARK_PINK_LINE": {
+        "name": "Majlis Park",
+        "line": "Pink line",
+        "lat": 28.7244312,
+        "lon": 77.181964,
+        "connections": [
+            {
+                "to": "AZADPUR_[CONN:_YELLOW]_PINK_LINE",
+                "distance_km": 2.1,
+                "time_sec": 216,
+                "type": "rail"
+            }
+        ]
+    },
+    "AZADPUR_[CONN:_YELLOW]_PINK_LINE": {
+        "name": "Azadpur [Conn: Yellow]",
+        "line": "Pink line",
+        "lat": 28.7076568,
+        "lon": 77.1755473,
+        "connections": [
+            {
+                "to": "MAJLIS_PARK_PINK_LINE",
+                "distance_km": 2.1,
+                "time_sec": 216,
+                "type": "rail"
+            },
+            {
+                "to": "SHALIMAR_BAGH_PINK_LINE",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            }
+        ]
+    },
+    "SHALIMAR_BAGH_PINK_LINE": {
+        "name": "Shalimar Bagh",
+        "line": "Pink line",
+        "lat": 28.71745265,
+        "lon": 77.15086655,
+        "connections": [
+            {
+                "to": "AZADPUR_[CONN:_YELLOW]_PINK_LINE",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            },
+            {
+                "to": "NETAJI_SUBASH_PLACE_[CONN:_RED]_PINK_LINE",
+                "distance_km": 1.4,
+                "time_sec": 144,
+                "type": "rail"
+            }
+        ]
+    },
+    "NETAJI_SUBASH_PLACE_[CONN:_RED]_PINK_LINE": {
+        "name": "Netaji Subash Place [Conn: Red]",
+        "line": "Pink line",
+        "lat": 28.69605175,
+        "lon": 77.15264042,
+        "connections": [
+            {
+                "to": "SHALIMAR_BAGH_PINK_LINE",
+                "distance_km": 1.4,
+                "time_sec": 144,
+                "type": "rail"
+            },
+            {
+                "to": "SHAKURPUR_PINK_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "SHAKURPUR_PINK_LINE": {
+        "name": "Shakurpur",
+        "line": "Pink line",
+        "lat": 28.6857668,
+        "lon": 77.1496094,
+        "connections": [
+            {
+                "to": "NETAJI_SUBASH_PLACE_[CONN:_RED]_PINK_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "PUNJABI_BAGH_WEST_PINK_LINE",
+                "distance_km": 1.4,
+                "time_sec": 144,
+                "type": "rail"
+            }
+        ]
+    },
+    "PUNJABI_BAGH_WEST_PINK_LINE": {
+        "name": "Punjabi Bagh West",
+        "line": "Pink line",
+        "lat": 28.6703201,
+        "lon": 77.1420875,
+        "connections": [
+            {
+                "to": "SHAKURPUR_PINK_LINE",
+                "distance_km": 1.4,
+                "time_sec": 144,
+                "type": "rail"
+            },
+            {
+                "to": "ESI_BASAI_DARAPUR_PINK_LINE",
+                "distance_km": 2.5,
+                "time_sec": 257,
+                "type": "rail"
+            }
+        ]
+    },
+    "ESI_BASAI_DARAPUR_PINK_LINE": {
+        "name": "ESI BASAI DARAPUR",
+        "line": "Pink line",
+        "lat": 28.6580737,
+        "lon": 77.1272678,
+        "connections": [
+            {
+                "to": "PUNJABI_BAGH_WEST_PINK_LINE",
+                "distance_km": 2.5,
+                "time_sec": 257,
+                "type": "rail"
+            },
+            {
+                "to": "RAJOURI_GARDEN_[CONN:_BLUE]_PINK_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "RAJOURI_GARDEN_[CONN:_BLUE]_PINK_LINE": {
+        "name": "Rajouri Garden [Conn: Blue]",
+        "line": "Pink line",
+        "lat": 28.6421518,
+        "lon": 77.11606038,
+        "connections": [
+            {
+                "to": "ESI_BASAI_DARAPUR_PINK_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "MAYA_PURI_PINK_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            }
+        ]
+    },
+    "MAYA_PURI_PINK_LINE": {
+        "name": "Maya Puri",
+        "line": "Pink line",
+        "lat": 28.6371795,
+        "lon": 77.1297333,
+        "connections": [
+            {
+                "to": "RAJOURI_GARDEN_[CONN:_BLUE]_PINK_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            },
+            {
+                "to": "NARAINA_VIHAR_PINK_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            }
+        ]
+    },
+    "NARAINA_VIHAR_PINK_LINE": {
+        "name": "Naraina Vihar",
+        "line": "Pink line",
+        "lat": 28.6273375,
+        "lon": 77.1403175,
+        "connections": [
+            {
+                "to": "MAYA_PURI_PINK_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            },
+            {
+                "to": "DELHI_CANTT_PINK_LINE",
+                "distance_km": 1.8,
+                "time_sec": 185,
+                "type": "rail"
+            }
+        ]
+    },
+    "DELHI_CANTT_PINK_LINE": {
+        "name": "Delhi Cantt",
+        "line": "Pink line",
+        "lat": 28.5938331,
+        "lon": 77.13497891,
+        "connections": [
+            {
+                "to": "NARAINA_VIHAR_PINK_LINE",
+                "distance_km": 1.8,
+                "time_sec": 185,
+                "type": "rail"
+            },
+            {
+                "to": "DURGABAI_DESHMUKH_SOUTH_CAMPUS_[CONN:_ORANGE]_PINK_LINE",
+                "distance_km": 3.6,
+                "time_sec": 370,
+                "type": "rail"
+            }
+        ]
+    },
+    "DURGABAI_DESHMUKH_SOUTH_CAMPUS_[CONN:_ORANGE]_PINK_LINE": {
+        "name": "Durgabai Deshmukh South Campus [Conn: Orange]",
+        "line": "Pink line",
+        "lat": 28.5894384,
+        "lon": 77.1690817,
+        "connections": [
+            {
+                "to": "DELHI_CANTT_PINK_LINE",
+                "distance_km": 3.6,
+                "time_sec": 370,
+                "type": "rail"
+            },
+            {
+                "to": "SIR_VISHWESHWARAIAH_MOTI_BAGH_PINK_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "SIR_VISHWESHWARAIAH_MOTI_BAGH_PINK_LINE": {
+        "name": "Sir Vishweshwaraiah Moti Bagh",
+        "line": "Pink line",
+        "lat": 28.5785326,
+        "lon": 77.175741,
+        "connections": [
+            {
+                "to": "DURGABAI_DESHMUKH_SOUTH_CAMPUS_[CONN:_ORANGE]_PINK_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "BHIKAJI_CAMA_PLACE_PINK_LINE",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            }
+        ]
+    },
+    "BHIKAJI_CAMA_PLACE_PINK_LINE": {
+        "name": "Bhikaji Cama Place",
+        "line": "Pink line",
+        "lat": 28.56790025,
+        "lon": 77.18701648,
+        "connections": [
+            {
+                "to": "SIR_VISHWESHWARAIAH_MOTI_BAGH_PINK_LINE",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            },
+            {
+                "to": "SAROJINI_NAGAR_PINK_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "SAROJINI_NAGAR_PINK_LINE": {
+        "name": "Sarojini Nagar",
+        "line": "Pink line",
+        "lat": 28.5741575,
+        "lon": 77.1953703,
+        "connections": [
+            {
+                "to": "BHIKAJI_CAMA_PLACE_PINK_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "DILLI_HAAT_INA_[CONN:_YELLOW]_PINK_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "DILLI_HAAT_INA_[CONN:_YELLOW]_PINK_LINE": {
+        "name": "Dilli Haat INA [Conn: Yellow]",
+        "line": "Pink line",
+        "lat": 28.57440755,
+        "lon": 77.21024148,
+        "connections": [
+            {
+                "to": "SAROJINI_NAGAR_PINK_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "SOUTH_EXTENSION_PINK_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "SOUTH_EXTENSION_PINK_LINE": {
+        "name": "South Extension",
+        "line": "Pink line",
+        "lat": 28.6517178,
+        "lon": 77.2219388,
+        "connections": [
+            {
+                "to": "DILLI_HAAT_INA_[CONN:_YELLOW]_PINK_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "LAJPAT_NAGAR_[CONN:_VIOLET]_PINK_LINE",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            }
+        ]
+    },
+    "LAJPAT_NAGAR_[CONN:_VIOLET]_PINK_LINE": {
+        "name": "Lajpat Nagar [Conn: Violet]",
+        "line": "Pink line",
+        "lat": 28.57079,
+        "lon": 77.23653,
+        "connections": [
+            {
+                "to": "SOUTH_EXTENSION_PINK_LINE",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            },
+            {
+                "to": "VINOBAPURI_PINK_LINE",
+                "distance_km": 1.4,
+                "time_sec": 144,
+                "type": "rail"
+            }
+        ]
+    },
+    "VINOBAPURI_PINK_LINE": {
+        "name": "Vinobapuri",
+        "line": "Pink line",
+        "lat": 28.5669763,
+        "lon": 77.2491906,
+        "connections": [
+            {
+                "to": "LAJPAT_NAGAR_[CONN:_VIOLET]_PINK_LINE",
+                "distance_km": 1.4,
+                "time_sec": 144,
+                "type": "rail"
+            },
+            {
+                "to": "ASHRAM_PINK_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "ASHRAM_PINK_LINE": {
+        "name": "Ashram",
+        "line": "Pink line",
+        "lat": 28.5724231,
+        "lon": 77.2585979,
+        "connections": [
+            {
+                "to": "VINOBAPURI_PINK_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "SARAI_KALE_KHAN_HAZRAT_NIZAMUDDIN_PINK_LINE",
+                "distance_km": 1.9,
+                "time_sec": 195,
+                "type": "rail"
+            }
+        ]
+    },
+    "SARAI_KALE_KHAN_HAZRAT_NIZAMUDDIN_PINK_LINE": {
+        "name": "Sarai Kale Khan Hazrat Nizamuddin",
+        "line": "Pink line",
+        "lat": 28.5887494,
+        "lon": 77.2572494,
+        "connections": [
+            {
+                "to": "ASHRAM_PINK_LINE",
+                "distance_km": 1.9,
+                "time_sec": 195,
+                "type": "rail"
+            },
+            {
+                "to": "MAYUR_VIHAR_PHASE-1_[CONN:_BLUE]_PINK_LINE",
+                "distance_km": 3.6,
+                "time_sec": 370,
+                "type": "rail"
+            }
+        ]
+    },
+    "MAYUR_VIHAR_PHASE-1_[CONN:_BLUE]_PINK_LINE": {
+        "name": "Mayur Vihar Phase-1 [Conn: Blue]",
+        "line": "Pink line",
+        "lat": 28.603133,
+        "lon": 77.2925892,
+        "connections": [
+            {
+                "to": "SARAI_KALE_KHAN_HAZRAT_NIZAMUDDIN_PINK_LINE",
+                "distance_km": 3.6,
+                "time_sec": 370,
+                "type": "rail"
+            },
+            {
+                "to": "MAYUR_VIHAR_POCKET_I_PINK_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            }
+        ]
+    },
+    "MAYUR_VIHAR_POCKET_I_PINK_LINE": {
+        "name": "Mayur Vihar Pocket I",
+        "line": "Pink line",
+        "lat": 28.6058619,
+        "lon": 77.2987023,
+        "connections": [
+            {
+                "to": "MAYUR_VIHAR_PHASE-1_[CONN:_BLUE]_PINK_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            },
+            {
+                "to": "TRILOKPURI_SANJAY_LAKE_PINK_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "TRILOKPURI_SANJAY_LAKE_PINK_LINE": {
+        "name": "Trilokpuri Sanjay Lake",
+        "line": "Pink line",
+        "lat": 28.613453,
+        "lon": 77.3088549,
+        "connections": [
+            {
+                "to": "MAYUR_VIHAR_POCKET_I_PINK_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "VINOD_NAGAR_EAST_PINK_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            }
+        ]
+    },
+    "VINOD_NAGAR_EAST_PINK_LINE": {
+        "name": "Vinod Nagar East",
+        "line": "Pink line",
+        "lat": 28.6200437,
+        "lon": 77.3054069,
+        "connections": [
+            {
+                "to": "TRILOKPURI_SANJAY_LAKE_PINK_LINE",
+                "distance_km": 0.8,
+                "time_sec": 82,
+                "type": "rail"
+            },
+            {
+                "to": "MANDAWALI_-_WEST_VINOD_NAGAR_PINK_LINE",
+                "distance_km": 0.6,
+                "time_sec": 61,
+                "type": "rail"
+            }
+        ]
+    },
+    "MANDAWALI_-_WEST_VINOD_NAGAR_PINK_LINE": {
+        "name": "Mandawali - West Vinod Nagar",
+        "line": "Pink line",
+        "lat": 28.6249712,
+        "lon": 77.3044906,
+        "connections": [
+            {
+                "to": "VINOD_NAGAR_EAST_PINK_LINE",
+                "distance_km": 0.6,
+                "time_sec": 61,
+                "type": "rail"
+            },
+            {
+                "to": "IP_EXTENSION_PINK_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "IP_EXTENSION_PINK_LINE": {
+        "name": "IP Extension",
+        "line": "Pink line",
+        "lat": 28.6288991,
+        "lon": 77.31019788,
+        "connections": [
+            {
+                "to": "MANDAWALI_-_WEST_VINOD_NAGAR_PINK_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "ANAND_VIHAR_[CONN:_BLUE]_PINK_LINE",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            }
+        ]
+    },
+    "ANAND_VIHAR_[CONN:_BLUE]_PINK_LINE": {
+        "name": "Anand Vihar [Conn: Blue]",
+        "line": "Pink line",
+        "lat": 28.6467533,
+        "lon": 77.3180037,
+        "connections": [
+            {
+                "to": "IP_EXTENSION_PINK_LINE",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            },
+            {
+                "to": "KARKAR_DUMA_[CONN:_BLUE]_PINK_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "KARKAR_DUMA_[CONN:_BLUE]_PINK_LINE": {
+        "name": "Karkar Duma [Conn: Blue]",
+        "line": "Pink line",
+        "lat": 28.6491622,
+        "lon": 77.30620811,
+        "connections": [
+            {
+                "to": "ANAND_VIHAR_[CONN:_BLUE]_PINK_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "KARKARDUMA_COURT_PINK_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "KARKARDUMA_COURT_PINK_LINE": {
+        "name": "Karkarduma Court",
+        "line": "Pink line",
+        "lat": 28.6536001,
+        "lon": 77.2957877,
+        "connections": [
+            {
+                "to": "KARKAR_DUMA_[CONN:_BLUE]_PINK_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "KRISHNA_NAGAR_PINK_LINE",
+                "distance_km": 0.7,
+                "time_sec": 72,
+                "type": "rail"
+            }
+        ]
+    },
+    "KRISHNA_NAGAR_PINK_LINE": {
+        "name": "Krishna Nagar",
+        "line": "Pink line",
+        "lat": 28.6578461,
+        "lon": 77.2901853,
+        "connections": [
+            {
+                "to": "KARKARDUMA_COURT_PINK_LINE",
+                "distance_km": 0.7,
+                "time_sec": 72,
+                "type": "rail"
+            },
+            {
+                "to": "EAST_AZAD_NAGAR_PINK_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "EAST_AZAD_NAGAR_PINK_LINE": {
+        "name": "East Azad Nagar",
+        "line": "Pink line",
+        "lat": 28.6646964,
+        "lon": 77.284881,
+        "connections": [
+            {
+                "to": "KRISHNA_NAGAR_PINK_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "WELCOME_[CONN:_RED]_PINK_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "WELCOME_[CONN:_RED]_PINK_LINE": {
+        "name": "Welcome [Conn: Red]",
+        "line": "Pink line",
+        "lat": 28.6718,
+        "lon": 77.27756,
+        "connections": [
+            {
+                "to": "EAST_AZAD_NAGAR_PINK_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "JAFFRABAD_PINK_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "JAFFRABAD_PINK_LINE": {
+        "name": "Jaffrabad",
+        "line": "Pink line",
+        "lat": 28.6826822,
+        "lon": 77.2748055,
+        "connections": [
+            {
+                "to": "WELCOME_[CONN:_RED]_PINK_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "MAUJPUR_PINK_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "MAUJPUR_PINK_LINE": {
+        "name": "Maujpur",
+        "line": "Pink line",
+        "lat": 28.69197845,
+        "lon": 77.27962397,
+        "connections": [
+            {
+                "to": "JAFFRABAD_PINK_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "GOKULPURI_PINK_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "GOKULPURI_PINK_LINE": {
+        "name": "Gokulpuri",
+        "line": "Pink line",
+        "lat": 28.7024752,
+        "lon": 77.2861253,
+        "connections": [
+            {
+                "to": "MAUJPUR_PINK_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "JOHRI_ENCLAVE_PINK_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "JOHRI_ENCLAVE_PINK_LINE": {
+        "name": "Johri Enclave",
+        "line": "Pink line",
+        "lat": 28.71288,
+        "lon": 77.2861253,
+        "connections": [
+            {
+                "to": "GOKULPURI_PINK_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "SHIV_VIHAR_PINK_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            }
+        ]
+    },
+    "SHIV_VIHAR_PINK_LINE": {
+        "name": "Shiv Vihar",
+        "line": "Pink line",
+        "lat": 28.61753755,
+        "lon": 77.03543017,
+        "connections": [
+            {
+                "to": "JOHRI_ENCLAVE_PINK_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            }
+        ]
+    },
+    "NOIDA_SECTOR_51_[CONN:_BLUE]_AQUA_LINE": {
+        "name": "Noida Sector 51 [Conn: Blue]",
+        "line": "Aqua line",
+        "lat": 28.5857,
+        "lon": 77.3753,
+        "connections": [
+            {
+                "to": "NOIDA_SECTOR_50_AQUA_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "NOIDA_SECTOR_50_AQUA_LINE": {
+        "name": "Noida Sector 50",
+        "line": "Aqua line",
+        "lat": 28.535517,
+        "lon": 77.391029,
+        "connections": [
+            {
+                "to": "NOIDA_SECTOR_51_[CONN:_BLUE]_AQUA_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "NOIDA_SECTOR_76_AQUA_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "NOIDA_SECTOR_76_AQUA_LINE": {
+        "name": "Noida Sector 76",
+        "line": "Aqua line",
+        "lat": 28.568746,
+        "lon": 77.382685,
+        "connections": [
+            {
+                "to": "NOIDA_SECTOR_50_AQUA_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "NOIDA_SECTOR_101_AQUA_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "NOIDA_SECTOR_101_AQUA_LINE": {
+        "name": "Noida Sector 101",
+        "line": "Aqua line",
+        "lat": 28.556402,
+        "lon": 77.384798,
+        "connections": [
+            {
+                "to": "NOIDA_SECTOR_76_AQUA_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "NOIDA_SECTOR_81_AQUA_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            }
+        ]
+    },
+    "NOIDA_SECTOR_81_AQUA_LINE": {
+        "name": "Noida Sector 81",
+        "line": "Aqua line",
+        "lat": 28.6225753,
+        "lon": 77.3743146,
+        "connections": [
+            {
+                "to": "NOIDA_SECTOR_101_AQUA_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            },
+            {
+                "to": "NSEZ_NOIDA_AQUA_LINE",
+                "distance_km": 2.0,
+                "time_sec": 205,
+                "type": "rail"
+            }
+        ]
+    },
+    "NSEZ_NOIDA_AQUA_LINE": {
+        "name": "NSEZ Noida",
+        "line": "Aqua line",
+        "lat": 28.535517,
+        "lon": 77.391029,
+        "connections": [
+            {
+                "to": "NOIDA_SECTOR_81_AQUA_LINE",
+                "distance_km": 2.0,
+                "time_sec": 205,
+                "type": "rail"
+            },
+            {
+                "to": "NOIDA_SECTOR_83_AQUA_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "NOIDA_SECTOR_83_AQUA_LINE": {
+        "name": "Noida Sector 83",
+        "line": "Aqua line",
+        "lat": 28.524115,
+        "lon": 77.397244,
+        "connections": [
+            {
+                "to": "NSEZ_NOIDA_AQUA_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "NOIDA_SECTOR_137_AQUA_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            }
+        ]
+    },
+    "NOIDA_SECTOR_137_AQUA_LINE": {
+        "name": "Noida Sector 137",
+        "line": "Aqua line",
+        "lat": 28.5090789,
+        "lon": 77.409015,
+        "connections": [
+            {
+                "to": "NOIDA_SECTOR_83_AQUA_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            },
+            {
+                "to": "NOIDA_SECTOR_142_AQUA_LINE",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            }
+        ]
+    },
+    "NOIDA_SECTOR_142_AQUA_LINE": {
+        "name": "Noida Sector 142",
+        "line": "Aqua line",
+        "lat": 28.4758348,
+        "lon": 77.55447875,
+        "connections": [
+            {
+                "to": "NOIDA_SECTOR_137_AQUA_LINE",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            },
+            {
+                "to": "NOIDA_SECTOR_143_AQUA_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            }
+        ]
+    },
+    "NOIDA_SECTOR_143_AQUA_LINE": {
+        "name": "Noida Sector 143",
+        "line": "Aqua line",
+        "lat": 28.50266325,
+        "lon": 77.42625566,
+        "connections": [
+            {
+                "to": "NOIDA_SECTOR_142_AQUA_LINE",
+                "distance_km": 1.0,
+                "time_sec": 102,
+                "type": "rail"
+            },
+            {
+                "to": "NOIDA_SECTOR_144_AQUA_LINE",
+                "distance_km": 1.4,
+                "time_sec": 144,
+                "type": "rail"
+            }
+        ]
+    },
+    "NOIDA_SECTOR_144_AQUA_LINE": {
+        "name": "Noida Sector 144",
+        "line": "Aqua line",
+        "lat": 28.4089049,
+        "lon": 76.9155232,
+        "connections": [
+            {
+                "to": "NOIDA_SECTOR_143_AQUA_LINE",
+                "distance_km": 1.4,
+                "time_sec": 144,
+                "type": "rail"
+            },
+            {
+                "to": "NOIDA_SECTOR_145_AQUA_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            }
+        ]
+    },
+    "NOIDA_SECTOR_145_AQUA_LINE": {
+        "name": "Noida Sector 145",
+        "line": "Aqua line",
+        "lat": 28.4089049,
+        "lon": 76.9155232,
+        "connections": [
+            {
+                "to": "NOIDA_SECTOR_144_AQUA_LINE",
+                "distance_km": 1.2,
+                "time_sec": 123,
+                "type": "rail"
+            },
+            {
+                "to": "NOIDA_SECTOR_146_AQUA_LINE",
+                "distance_km": 1.7,
+                "time_sec": 174,
+                "type": "rail"
+            }
+        ]
+    },
+    "NOIDA_SECTOR_146_AQUA_LINE": {
+        "name": "Noida Sector 146",
+        "line": "Aqua line",
+        "lat": 28.4082289,
+        "lon": 76.963024,
+        "connections": [
+            {
+                "to": "NOIDA_SECTOR_145_AQUA_LINE",
+                "distance_km": 1.7,
+                "time_sec": 174,
+                "type": "rail"
+            },
+            {
+                "to": "NOIDA_SECTOR_147_AQUA_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            }
+        ]
+    },
+    "NOIDA_SECTOR_147_AQUA_LINE": {
+        "name": "Noida Sector 147",
+        "line": "Aqua line",
+        "lat": 28.4089049,
+        "lon": 76.9155232,
+        "connections": [
+            {
+                "to": "NOIDA_SECTOR_146_AQUA_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            },
+            {
+                "to": "NOIDA_SECTOR_148_AQUA_LINE",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            }
+        ]
+    },
+    "NOIDA_SECTOR_148_AQUA_LINE": {
+        "name": "Noida Sector 148",
+        "line": "Aqua line",
+        "lat": 28.4758348,
+        "lon": 77.55447875,
+        "connections": [
+            {
+                "to": "NOIDA_SECTOR_147_AQUA_LINE",
+                "distance_km": 1.6,
+                "time_sec": 164,
+                "type": "rail"
+            },
+            {
+                "to": "KNOWLEDGE_PARK_II_AQUA_LINE",
+                "distance_km": 2.5,
+                "time_sec": 257,
+                "type": "rail"
+            }
+        ]
+    },
+    "KNOWLEDGE_PARK_II_AQUA_LINE": {
+        "name": "Knowledge Park II",
+        "line": "Aqua line",
+        "lat": 28.4568669,
+        "lon": 77.50005403,
+        "connections": [
+            {
+                "to": "NOIDA_SECTOR_148_AQUA_LINE",
+                "distance_km": 2.5,
+                "time_sec": 257,
+                "type": "rail"
+            },
+            {
+                "to": "PARI_CHOWK_GREATER_NOIDA_AQUA_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            }
+        ]
+    },
+    "PARI_CHOWK_GREATER_NOIDA_AQUA_LINE": {
+        "name": "Pari Chowk Greater Noida",
+        "line": "Aqua line",
+        "lat": 28.4631285,
+        "lon": 77.50809851,
+        "connections": [
+            {
+                "to": "KNOWLEDGE_PARK_II_AQUA_LINE",
+                "distance_km": 1.1,
+                "time_sec": 113,
+                "type": "rail"
+            },
+            {
+                "to": "ALPHA_1_GREATER_NOIDA_AQUA_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            }
+        ]
+    },
+    "ALPHA_1_GREATER_NOIDA_AQUA_LINE": {
+        "name": "Alpha 1 Greater Noida",
+        "line": "Aqua line",
+        "lat": 28.4709,
+        "lon": 77.5127,
+        "connections": [
+            {
+                "to": "PARI_CHOWK_GREATER_NOIDA_AQUA_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            },
+            {
+                "to": "DELTA_1_GREATER_NOIDA_AQUA_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            }
+        ]
+    },
+    "DELTA_1_GREATER_NOIDA_AQUA_LINE": {
+        "name": "Delta 1 Greater Noida",
+        "line": "Aqua line",
+        "lat": 28.474388,
+        "lon": 77.50399,
+        "connections": [
+            {
+                "to": "ALPHA_1_GREATER_NOIDA_AQUA_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            },
+            {
+                "to": "GNIDA_OFFICE_AQUA_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            }
+        ]
+    },
+    "GNIDA_OFFICE_AQUA_LINE": {
+        "name": "GNIDA Office",
+        "line": "Aqua line",
+        "lat": 28.474388,
+        "lon": 77.50399,
+        "connections": [
+            {
+                "to": "DELTA_1_GREATER_NOIDA_AQUA_LINE",
+                "distance_km": 1.3,
+                "time_sec": 133,
+                "type": "rail"
+            },
+            {
+                "to": "DEPOT_GREATER_NOIDA_AQUA_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            }
+        ]
+    },
+    "DEPOT_GREATER_NOIDA_AQUA_LINE": {
+        "name": "Depot Greater Noida",
+        "line": "Aqua line",
+        "lat": 28.474388,
+        "lon": 77.50399,
+        "connections": [
+            {
+                "to": "GNIDA_OFFICE_AQUA_LINE",
+                "distance_km": 0.9,
+                "time_sec": 92,
+                "type": "rail"
+            }
+        ]
+    },
+    "DWARKA_[CONN:_BLUE]_GRAY_LINE": {
+        "name": "Dwarka [Conn: Blue]",
+        "line": "Gray line",
+        "lat": 28.5771915,
+        "lon": 77.0442935,
+        "connections": [
+            {
+                "to": "NANGLI_GRAY_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            }
+        ]
+    },
+    "NANGLI_GRAY_LINE": {
+        "name": "Nangli",
+        "line": "Gray line",
+        "lat": 28.6173003,
+        "lon": 77.0104375,
+        "connections": [
+            {
+                "to": "DWARKA_[CONN:_BLUE]_GRAY_LINE",
+                "distance_km": 1.5,
+                "time_sec": 154,
+                "type": "rail"
+            },
+            {
+                "to": "NAJAFGARH_GRAY_LINE",
+                "distance_km": 2.4,
+                "time_sec": 246,
+                "type": "rail"
+            }
+        ]
+    },
+    "NAJAFGARH_GRAY_LINE": {
+        "name": "Najafgarh",
+        "line": "Gray line",
+        "lat": 28.612304,
+        "lon": 76.9823908,
+        "connections": [
+            {
+                "to": "NANGLI_GRAY_LINE",
+                "distance_km": 2.4,
+                "time_sec": 246,
+                "type": "rail"
+            }
+        ]
+    },
+    "NEW_DELHI-AIRPORT_EXPRESS_[CONN:_YELLOW]_ORANGE_LINE": {
+        "name": "New Delhi-Airport Express [Conn: Yellow]",
+        "line": "Orange line",
+        "lat": 28.64307,
+        "lon": 77.22144,
+        "connections": [
+            {
+                "to": "SHIVAJI_STADIUM_ORANGE_LINE",
+                "distance_km": 1.9,
+                "time_sec": 195,
+                "type": "rail"
+            }
+        ]
+    },
+    "SHIVAJI_STADIUM_ORANGE_LINE": {
+        "name": "Shivaji Stadium",
+        "line": "Orange line",
+        "lat": 28.62901,
+        "lon": 77.2119,
+        "connections": [
+            {
+                "to": "NEW_DELHI-AIRPORT_EXPRESS_[CONN:_YELLOW]_ORANGE_LINE",
+                "distance_km": 1.9,
+                "time_sec": 195,
+                "type": "rail"
+            },
+            {
+                "to": "DHAULA_KUAN_[CONN:_PINK]_ORANGE_LINE",
+                "distance_km": 6.4,
+                "time_sec": 658,
+                "type": "rail"
+            }
+        ]
+    },
+    "DHAULA_KUAN_[CONN:_PINK]_ORANGE_LINE": {
+        "name": "Dhaula Kuan [Conn: Pink]",
+        "line": "Orange line",
+        "lat": 28.59178,
+        "lon": 77.16155,
+        "connections": [
+            {
+                "to": "SHIVAJI_STADIUM_ORANGE_LINE",
+                "distance_km": 6.4,
+                "time_sec": 658,
+                "type": "rail"
+            },
+            {
+                "to": "DELHI_AEROCITY_ORANGE_LINE",
+                "distance_km": 6.2,
+                "time_sec": 637,
+                "type": "rail"
+            }
+        ]
+    },
+    "DELHI_AEROCITY_ORANGE_LINE": {
+        "name": "Delhi Aerocity",
+        "line": "Orange line",
+        "lat": 28.54881,
+        "lon": 77.12092,
+        "connections": [
+            {
+                "to": "DHAULA_KUAN_[CONN:_PINK]_ORANGE_LINE",
+                "distance_km": 6.2,
+                "time_sec": 637,
+                "type": "rail"
+            },
+            {
+                "to": "IGI_AIRPORT_ORANGE_LINE",
+                "distance_km": 3.4,
+                "time_sec": 349,
+                "type": "rail"
+            }
+        ]
+    },
+    "IGI_AIRPORT_ORANGE_LINE": {
+        "name": "IGI Airport",
+        "line": "Orange line",
+        "lat": 28.55693,
+        "lon": 77.08669,
+        "connections": [
+            {
+                "to": "DELHI_AEROCITY_ORANGE_LINE",
+                "distance_km": 3.4,
+                "time_sec": 349,
+                "type": "rail"
+            },
+            {
+                "to": "DWARKA_SECTOR_21_[CONN:_BLUE]_ORANGE_LINE",
+                "distance_km": 2.9,
+                "time_sec": 298,
+                "type": "rail"
+            }
+        ]
+    },
+    "DWARKA_SECTOR_21_[CONN:_BLUE]_ORANGE_LINE": {
+        "name": "Dwarka Sector 21 [Conn: Blue]",
+        "line": "Orange line",
+        "lat": 28.55226,
+        "lon": 77.05828,
+        "connections": [
+            {
+                "to": "IGI_AIRPORT_ORANGE_LINE",
+                "distance_km": 2.9,
+                "time_sec": 298,
+                "type": "rail"
+            }
+        ]
+    }
+}
